@@ -1,0 +1,5 @@
+<HTML> <BODY> <p><span>Total orders processed: 200
+</span> <br/><span>Total orders from all tables: 200
+</span> <br/><span>Total orders from all waiters: 200
+</span> <br/><span>Total orders cooked: 200
+</span> <br/></p> </BODY> </HTML>

@@ -1,0 +1,1627 @@
+2023-07-28 11:07:28,276 DEBUG Main [main] start the restaurant now.
+2023-07-28 11:07:28,291 DEBUG Restaurant [main] Creating table threads...
+2023-07-28 11:07:28,323 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:28,324 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:28,330 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:28,303 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:28,303 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:28,331 DEBUG Restaurant [main] Creating chef threads...
+2023-07-28 11:07:28,308 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:28,332 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:28,303 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:28,347 DEBUG Table [pool-2-thread-5] placing the order. order-id:1, table:5, waiter:waiter3
+2023-07-28 11:07:28,348 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:1, table:5, waiter:waiter3
+2023-07-28 11:07:28,348 DEBUG Table [pool-2-thread-4] placing the order. order-id:2, table:4, waiter:waiter2
+2023-07-28 11:07:28,347 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:28,348 DEBUG Chef [pool-2-thread-9] Got the order. order-id:1, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:28,348 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:2, table:4, waiter:waiter2
+2023-07-28 11:07:28,349 DEBUG Table [pool-2-thread-1] placing the order. order-id:4, table:1, waiter:waiter1
+2023-07-28 11:07:28,349 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:4, table:1, waiter:waiter1
+2023-07-28 11:07:28,349 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:28,350 DEBUG Table [pool-2-thread-8] placing the order. order-id:3, table:8, waiter:waiter4
+2023-07-28 11:07:28,350 DEBUG Chef [pool-2-thread-12] Got the order. order-id:2, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:28,350 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:3, table:8, waiter:waiter4
+2023-07-28 11:07:28,350 DEBUG Table [pool-2-thread-3] placing the order. order-id:7, table:3, waiter:waiter2
+2023-07-28 11:07:28,358 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:7, table:3, waiter:waiter2
+2023-07-28 11:07:28,350 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:28,360 DEBUG Table [pool-2-thread-2] placing the order. order-id:5, table:2, waiter:waiter1
+2023-07-28 11:07:28,361 DEBUG Table [pool-2-thread-6] placing the order. order-id:5, table:6, waiter:waiter3
+2023-07-28 11:07:28,360 DEBUG Table [pool-2-thread-7] placing the order. order-id:6, table:7, waiter:waiter4
+2023-07-28 11:07:28,359 DEBUG Chef [pool-2-thread-10] Got the order. order-id:4, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:28,367 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:6, table:7, waiter:waiter4
+2023-07-28 11:07:28,371 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:5, table:6, waiter:waiter3
+2023-07-28 11:07:28,367 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:28,371 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:5, table:2, waiter:waiter1
+2023-07-28 11:07:28,372 DEBUG Chef [pool-2-thread-11] Got the order. order-id:3, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:28,449 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:1, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:28,449 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:28,449 DEBUG Table [pool-2-thread-5] food delivered. order-id:1, table:5, waiter:waiter3
+2023-07-28 11:07:28,450 DEBUG Chef [pool-2-thread-9] Got the order. order-id:7, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:28,450 DEBUG Table [pool-2-thread-5] eating now. order-id:1, table:5, waiter:waiter3
+2023-07-28 11:07:28,450 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:2, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:28,450 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:28,450 DEBUG Table [pool-2-thread-4] food delivered. order-id:2, table:4, waiter:waiter2
+2023-07-28 11:07:28,451 DEBUG Chef [pool-2-thread-12] Got the order. order-id:6, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef4
+2023-07-28 11:07:28,451 DEBUG Table [pool-2-thread-4] eating now. order-id:2, table:4, waiter:waiter2
+2023-07-28 11:07:28,467 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:4, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:28,468 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:28,468 DEBUG Table [pool-2-thread-1] food delivered. order-id:4, table:1, waiter:waiter1
+2023-07-28 11:07:28,468 DEBUG Chef [pool-2-thread-10] Got the order. order-id:5, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:28,468 DEBUG Table [pool-2-thread-1] eating now. order-id:4, table:1, waiter:waiter1
+2023-07-28 11:07:28,472 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:3, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:28,473 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:28,473 DEBUG Chef [pool-2-thread-11] Got the order. order-id:5, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:28,473 DEBUG Table [pool-2-thread-8] food delivered. order-id:3, table:8, waiter:waiter4
+2023-07-28 11:07:28,473 DEBUG Table [pool-2-thread-8] eating now. order-id:3, table:8, waiter:waiter4
+2023-07-28 11:07:28,550 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:28,550 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:7, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:28,551 DEBUG Table [pool-2-thread-5] placing the order. order-id:8, table:5, waiter:waiter3
+2023-07-28 11:07:28,551 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:28,551 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:8, table:5, waiter:waiter3
+2023-07-28 11:07:28,551 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:28,552 DEBUG Chef [pool-2-thread-9] Got the order. order-id:8, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:28,552 DEBUG Table [pool-2-thread-3] food delivered. order-id:7, table:3, waiter:waiter2
+2023-07-28 11:07:28,553 DEBUG Table [pool-2-thread-3] eating now. order-id:7, table:3, waiter:waiter2
+2023-07-28 11:07:28,552 DEBUG Table [pool-2-thread-4] placing the order. order-id:9, table:4, waiter:waiter2
+2023-07-28 11:07:28,554 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:9, table:4, waiter:waiter2
+2023-07-28 11:07:28,551 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:6, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef4
+2023-07-28 11:07:28,554 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:28,554 DEBUG Table [pool-2-thread-7] food delivered. order-id:6, table:7, waiter:waiter4
+2023-07-28 11:07:28,554 DEBUG Chef [pool-2-thread-12] Got the order. order-id:9, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:28,555 DEBUG Table [pool-2-thread-7] eating now. order-id:6, table:7, waiter:waiter4
+2023-07-28 11:07:28,568 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:5, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:28,569 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:28,568 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:28,586 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:5, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:28,587 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:28,587 DEBUG Table [pool-2-thread-2] food delivered. order-id:5, table:2, waiter:waiter1
+2023-07-28 11:07:28,569 DEBUG Table [pool-2-thread-6] food delivered. order-id:5, table:6, waiter:waiter3
+2023-07-28 11:07:28,586 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:28,587 DEBUG Table [pool-2-thread-2] eating now. order-id:5, table:2, waiter:waiter1
+2023-07-28 11:07:28,588 DEBUG Table [pool-2-thread-8] placing the order. order-id:11, table:8, waiter:waiter4
+2023-07-28 11:07:28,588 DEBUG Table [pool-2-thread-6] eating now. order-id:5, table:6, waiter:waiter3
+2023-07-28 11:07:28,587 DEBUG Table [pool-2-thread-1] placing the order. order-id:10, table:1, waiter:waiter1
+2023-07-28 11:07:28,588 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:11, table:8, waiter:waiter4
+2023-07-28 11:07:28,588 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:10, table:1, waiter:waiter1
+2023-07-28 11:07:28,589 DEBUG Chef [pool-2-thread-10] Got the order. order-id:11, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:28,589 DEBUG Chef [pool-2-thread-11] Got the order. order-id:10, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:28,652 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:8, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:28,652 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:28,652 DEBUG Table [pool-2-thread-5] food delivered. order-id:8, table:5, waiter:waiter3
+2023-07-28 11:07:28,653 DEBUG Table [pool-2-thread-5] eating now. order-id:8, table:5, waiter:waiter3
+2023-07-28 11:07:28,654 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:28,654 DEBUG Table [pool-2-thread-3] placing the order. order-id:12, table:3, waiter:waiter2
+2023-07-28 11:07:28,654 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:12, table:3, waiter:waiter2
+2023-07-28 11:07:28,654 DEBUG Chef [pool-2-thread-9] Got the order. order-id:12, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:28,655 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:9, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:28,655 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:28,655 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:28,655 DEBUG Table [pool-2-thread-7] placing the order. order-id:13, table:7, waiter:waiter4
+2023-07-28 11:07:28,655 DEBUG Table [pool-2-thread-4] food delivered. order-id:9, table:4, waiter:waiter2
+2023-07-28 11:07:28,655 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:13, table:7, waiter:waiter4
+2023-07-28 11:07:28,655 DEBUG Table [pool-2-thread-4] eating now. order-id:9, table:4, waiter:waiter2
+2023-07-28 11:07:28,655 DEBUG Chef [pool-2-thread-12] Got the order. order-id:13, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef4
+2023-07-28 11:07:28,688 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:28,688 DEBUG Table [pool-2-thread-2] placing the order. order-id:14, table:2, waiter:waiter1
+2023-07-28 11:07:28,688 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:14, table:2, waiter:waiter1
+2023-07-28 11:07:28,688 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:28,689 DEBUG Table [pool-2-thread-6] placing the order. order-id:15, table:6, waiter:waiter3
+2023-07-28 11:07:28,689 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:15, table:6, waiter:waiter3
+2023-07-28 11:07:28,689 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:11, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:28,689 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:28,689 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:10, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:28,689 DEBUG Table [pool-2-thread-8] food delivered. order-id:11, table:8, waiter:waiter4
+2023-07-28 11:07:28,689 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:28,689 DEBUG Chef [pool-2-thread-10] Got the order. order-id:14, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:28,689 DEBUG Table [pool-2-thread-1] food delivered. order-id:10, table:1, waiter:waiter1
+2023-07-28 11:07:28,690 DEBUG Table [pool-2-thread-8] eating now. order-id:11, table:8, waiter:waiter4
+2023-07-28 11:07:28,690 DEBUG Chef [pool-2-thread-11] Got the order. order-id:15, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:28,690 DEBUG Table [pool-2-thread-1] eating now. order-id:10, table:1, waiter:waiter1
+2023-07-28 11:07:28,753 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:28,753 DEBUG Table [pool-2-thread-5] placing the order. order-id:16, table:5, waiter:waiter3
+2023-07-28 11:07:28,754 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:16, table:5, waiter:waiter3
+2023-07-28 11:07:28,755 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:12, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:28,755 DEBUG Table [pool-2-thread-3] food delivered. order-id:12, table:3, waiter:waiter2
+2023-07-28 11:07:28,755 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:28,755 DEBUG Chef [pool-2-thread-9] Got the order. order-id:16, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:28,756 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:28,756 DEBUG Table [pool-2-thread-4] placing the order. order-id:17, table:4, waiter:waiter2
+2023-07-28 11:07:28,756 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:17, table:4, waiter:waiter2
+2023-07-28 11:07:28,757 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:13, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef4
+2023-07-28 11:07:28,757 DEBUG Table [pool-2-thread-7] food delivered. order-id:13, table:7, waiter:waiter4
+2023-07-28 11:07:28,757 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:28,757 DEBUG Chef [pool-2-thread-12] Got the order. order-id:17, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:28,758 DEBUG Table [pool-2-thread-3] eating now. order-id:12, table:3, waiter:waiter2
+2023-07-28 11:07:28,759 DEBUG Table [pool-2-thread-7] eating now. order-id:13, table:7, waiter:waiter4
+2023-07-28 11:07:28,790 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:14, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:28,790 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:28,791 DEBUG Table [pool-2-thread-2] food delivered. order-id:14, table:2, waiter:waiter1
+2023-07-28 11:07:28,791 DEBUG Table [pool-2-thread-2] eating now. order-id:14, table:2, waiter:waiter1
+2023-07-28 11:07:28,791 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:28,792 DEBUG Table [pool-2-thread-8] placing the order. order-id:18, table:8, waiter:waiter4
+2023-07-28 11:07:28,792 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:18, table:8, waiter:waiter4
+2023-07-28 11:07:28,792 DEBUG Chef [pool-2-thread-10] Got the order. order-id:18, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:28,793 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:15, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:28,793 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:28,793 DEBUG Table [pool-2-thread-6] food delivered. order-id:15, table:6, waiter:waiter3
+2023-07-28 11:07:28,794 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:28,794 DEBUG Table [pool-2-thread-6] eating now. order-id:15, table:6, waiter:waiter3
+2023-07-28 11:07:28,794 DEBUG Table [pool-2-thread-1] placing the order. order-id:19, table:1, waiter:waiter1
+2023-07-28 11:07:28,794 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:19, table:1, waiter:waiter1
+2023-07-28 11:07:28,794 DEBUG Chef [pool-2-thread-11] Got the order. order-id:19, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:28,856 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:16, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:28,856 DEBUG Table [pool-2-thread-5] food delivered. order-id:16, table:5, waiter:waiter3
+2023-07-28 11:07:28,856 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:28,857 DEBUG Table [pool-2-thread-5] eating now. order-id:16, table:5, waiter:waiter3
+2023-07-28 11:07:28,859 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:28,859 DEBUG Table [pool-2-thread-7] placing the order. order-id:20, table:7, waiter:waiter4
+2023-07-28 11:07:28,859 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:17, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:28,859 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:28,859 DEBUG Table [pool-2-thread-4] food delivered. order-id:17, table:4, waiter:waiter2
+2023-07-28 11:07:28,860 DEBUG Table [pool-2-thread-3] placing the order. order-id:21, table:3, waiter:waiter2
+2023-07-28 11:07:28,859 DEBUG Chef [pool-2-thread-9] Got the order. order-id:20, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:28,860 DEBUG Table [pool-2-thread-4] eating now. order-id:17, table:4, waiter:waiter2
+2023-07-28 11:07:28,859 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:28,859 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:20, table:7, waiter:waiter4
+2023-07-28 11:07:28,860 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:21, table:3, waiter:waiter2
+2023-07-28 11:07:28,860 DEBUG Chef [pool-2-thread-12] Got the order. order-id:21, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:28,891 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:28,892 DEBUG Table [pool-2-thread-2] placing the order. order-id:22, table:2, waiter:waiter1
+2023-07-28 11:07:28,892 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:22, table:2, waiter:waiter1
+2023-07-28 11:07:28,893 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:18, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:28,893 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:28,893 DEBUG Table [pool-2-thread-8] food delivered. order-id:18, table:8, waiter:waiter4
+2023-07-28 11:07:28,893 DEBUG Chef [pool-2-thread-10] Got the order. order-id:22, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:28,893 DEBUG Table [pool-2-thread-8] eating now. order-id:18, table:8, waiter:waiter4
+2023-07-28 11:07:28,894 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:28,894 DEBUG Table [pool-2-thread-6] placing the order. order-id:23, table:6, waiter:waiter3
+2023-07-28 11:07:28,895 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:19, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:28,895 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:23, table:6, waiter:waiter3
+2023-07-28 11:07:28,895 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:28,895 DEBUG Table [pool-2-thread-1] food delivered. order-id:19, table:1, waiter:waiter1
+2023-07-28 11:07:28,895 DEBUG Table [pool-2-thread-1] eating now. order-id:19, table:1, waiter:waiter1
+2023-07-28 11:07:28,895 DEBUG Chef [pool-2-thread-11] Got the order. order-id:23, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:28,957 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:28,957 DEBUG Table [pool-2-thread-5] placing the order. order-id:24, table:5, waiter:waiter3
+2023-07-28 11:07:28,957 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:24, table:5, waiter:waiter3
+2023-07-28 11:07:28,960 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:28,960 DEBUG Table [pool-2-thread-4] placing the order. order-id:25, table:4, waiter:waiter2
+2023-07-28 11:07:28,961 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:25, table:4, waiter:waiter2
+2023-07-28 11:07:28,961 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:21, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:28,961 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:28,960 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:20, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:28,961 DEBUG Table [pool-2-thread-3] food delivered. order-id:21, table:3, waiter:waiter2
+2023-07-28 11:07:28,961 DEBUG Chef [pool-2-thread-12] Got the order. order-id:24, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef4
+2023-07-28 11:07:28,961 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:28,961 DEBUG Table [pool-2-thread-7] food delivered. order-id:20, table:7, waiter:waiter4
+2023-07-28 11:07:28,962 DEBUG Table [pool-2-thread-3] eating now. order-id:21, table:3, waiter:waiter2
+2023-07-28 11:07:28,962 DEBUG Chef [pool-2-thread-9] Got the order. order-id:25, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:28,962 DEBUG Table [pool-2-thread-7] eating now. order-id:20, table:7, waiter:waiter4
+2023-07-28 11:07:28,994 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:28,994 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:22, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:28,994 DEBUG Table [pool-2-thread-8] placing the order. order-id:26, table:8, waiter:waiter4
+2023-07-28 11:07:28,995 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:28,995 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:26, table:8, waiter:waiter4
+2023-07-28 11:07:28,995 DEBUG Chef [pool-2-thread-10] Got the order. order-id:26, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:28,995 DEBUG Table [pool-2-thread-2] food delivered. order-id:22, table:2, waiter:waiter1
+2023-07-28 11:07:28,996 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:23, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:28,996 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:28,996 DEBUG Table [pool-2-thread-2] eating now. order-id:22, table:2, waiter:waiter1
+2023-07-28 11:07:28,996 DEBUG Table [pool-2-thread-6] food delivered. order-id:23, table:6, waiter:waiter3
+2023-07-28 11:07:28,997 DEBUG Table [pool-2-thread-6] eating now. order-id:23, table:6, waiter:waiter3
+2023-07-28 11:07:28,998 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:28,999 DEBUG Table [pool-2-thread-1] placing the order. order-id:27, table:1, waiter:waiter1
+2023-07-28 11:07:28,999 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:27, table:1, waiter:waiter1
+2023-07-28 11:07:28,999 DEBUG Chef [pool-2-thread-11] Got the order. order-id:27, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,062 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:24, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,062 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:29,063 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:25, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,063 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:29,063 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:29,063 DEBUG Table [pool-2-thread-3] placing the order. order-id:28, table:3, waiter:waiter2
+2023-07-28 11:07:29,063 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:29,063 DEBUG Table [pool-2-thread-7] placing the order. order-id:29, table:7, waiter:waiter4
+2023-07-28 11:07:29,063 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:28, table:3, waiter:waiter2
+2023-07-28 11:07:29,063 DEBUG Table [pool-2-thread-5] food delivered. order-id:24, table:5, waiter:waiter3
+2023-07-28 11:07:29,063 DEBUG Table [pool-2-thread-4] food delivered. order-id:25, table:4, waiter:waiter2
+2023-07-28 11:07:29,064 DEBUG Table [pool-2-thread-4] eating now. order-id:25, table:4, waiter:waiter2
+2023-07-28 11:07:29,063 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:29, table:7, waiter:waiter4
+2023-07-28 11:07:29,063 DEBUG Chef [pool-2-thread-9] Got the order. order-id:28, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,064 DEBUG Chef [pool-2-thread-12] Got the order. order-id:29, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,064 DEBUG Table [pool-2-thread-5] eating now. order-id:24, table:5, waiter:waiter3
+2023-07-28 11:07:29,095 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:26, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:29,095 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:29,095 DEBUG Table [pool-2-thread-8] food delivered. order-id:26, table:8, waiter:waiter4
+2023-07-28 11:07:29,096 DEBUG Table [pool-2-thread-8] eating now. order-id:26, table:8, waiter:waiter4
+2023-07-28 11:07:29,097 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:29,097 DEBUG Table [pool-2-thread-2] placing the order. order-id:30, table:2, waiter:waiter1
+2023-07-28 11:07:29,097 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:30, table:2, waiter:waiter1
+2023-07-28 11:07:29,097 DEBUG Chef [pool-2-thread-10] Got the order. order-id:30, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:29,098 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:29,098 DEBUG Table [pool-2-thread-6] placing the order. order-id:31, table:6, waiter:waiter3
+2023-07-28 11:07:29,098 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:31, table:6, waiter:waiter3
+2023-07-28 11:07:29,099 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:27, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,099 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:29,099 DEBUG Table [pool-2-thread-1] food delivered. order-id:27, table:1, waiter:waiter1
+2023-07-28 11:07:29,100 DEBUG Chef [pool-2-thread-11] Got the order. order-id:31, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,100 DEBUG Table [pool-2-thread-1] eating now. order-id:27, table:1, waiter:waiter1
+2023-07-28 11:07:29,164 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:29,164 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:28, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,164 DEBUG Table [pool-2-thread-4] placing the order. order-id:32, table:4, waiter:waiter2
+2023-07-28 11:07:29,164 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:29,164 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:29, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,165 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:29,165 DEBUG Table [pool-2-thread-7] food delivered. order-id:29, table:7, waiter:waiter4
+2023-07-28 11:07:29,165 DEBUG Chef [pool-2-thread-12] Got the order. order-id:32, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,164 DEBUG Table [pool-2-thread-3] food delivered. order-id:28, table:3, waiter:waiter2
+2023-07-28 11:07:29,165 DEBUG Table [pool-2-thread-3] eating now. order-id:28, table:3, waiter:waiter2
+2023-07-28 11:07:29,166 DEBUG Table [pool-2-thread-7] eating now. order-id:29, table:7, waiter:waiter4
+2023-07-28 11:07:29,164 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:32, table:4, waiter:waiter2
+2023-07-28 11:07:29,167 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:29,168 DEBUG Table [pool-2-thread-5] placing the order. order-id:33, table:5, waiter:waiter3
+2023-07-28 11:07:29,168 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:33, table:5, waiter:waiter3
+2023-07-28 11:07:29,168 DEBUG Chef [pool-2-thread-9] Got the order. order-id:33, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,196 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:29,197 DEBUG Table [pool-2-thread-8] placing the order. order-id:34, table:8, waiter:waiter4
+2023-07-28 11:07:29,198 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:34, table:8, waiter:waiter4
+2023-07-28 11:07:29,198 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:30, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:29,198 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:29,198 DEBUG Chef [pool-2-thread-10] Got the order. order-id:34, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:29,199 DEBUG Table [pool-2-thread-2] food delivered. order-id:30, table:2, waiter:waiter1
+2023-07-28 11:07:29,199 DEBUG Table [pool-2-thread-2] eating now. order-id:30, table:2, waiter:waiter1
+2023-07-28 11:07:29,200 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:31, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,200 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:29,200 DEBUG Table [pool-2-thread-6] food delivered. order-id:31, table:6, waiter:waiter3
+2023-07-28 11:07:29,200 DEBUG Table [pool-2-thread-6] eating now. order-id:31, table:6, waiter:waiter3
+2023-07-28 11:07:29,201 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:29,201 DEBUG Table [pool-2-thread-1] placing the order. order-id:35, table:1, waiter:waiter1
+2023-07-28 11:07:29,201 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:35, table:1, waiter:waiter1
+2023-07-28 11:07:29,202 DEBUG Chef [pool-2-thread-11] Got the order. order-id:35, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,266 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:32, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,266 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:29,267 DEBUG Table [pool-2-thread-4] food delivered. order-id:32, table:4, waiter:waiter2
+2023-07-28 11:07:29,267 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:29,267 DEBUG Table [pool-2-thread-3] placing the order. order-id:36, table:3, waiter:waiter2
+2023-07-28 11:07:29,267 DEBUG Table [pool-2-thread-4] eating now. order-id:32, table:4, waiter:waiter2
+2023-07-28 11:07:29,266 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:29,267 DEBUG Table [pool-2-thread-7] placing the order. order-id:37, table:7, waiter:waiter4
+2023-07-28 11:07:29,267 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:37, table:7, waiter:waiter4
+2023-07-28 11:07:29,268 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:36, table:3, waiter:waiter2
+2023-07-28 11:07:29,268 DEBUG Chef [pool-2-thread-12] Got the order. order-id:36, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,269 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:33, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,269 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:29,269 DEBUG Chef [pool-2-thread-9] Got the order. order-id:37, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,269 DEBUG Table [pool-2-thread-5] food delivered. order-id:33, table:5, waiter:waiter3
+2023-07-28 11:07:29,270 DEBUG Table [pool-2-thread-5] eating now. order-id:33, table:5, waiter:waiter3
+2023-07-28 11:07:29,299 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:34, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:29,299 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:29,299 DEBUG Table [pool-2-thread-8] food delivered. order-id:34, table:8, waiter:waiter4
+2023-07-28 11:07:29,299 DEBUG Table [pool-2-thread-8] eating now. order-id:34, table:8, waiter:waiter4
+2023-07-28 11:07:29,300 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:29,300 DEBUG Table [pool-2-thread-2] placing the order. order-id:38, table:2, waiter:waiter1
+2023-07-28 11:07:29,301 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:38, table:2, waiter:waiter1
+2023-07-28 11:07:29,301 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:29,301 DEBUG Table [pool-2-thread-6] placing the order. order-id:39, table:6, waiter:waiter3
+2023-07-28 11:07:29,301 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:39, table:6, waiter:waiter3
+2023-07-28 11:07:29,301 DEBUG Chef [pool-2-thread-10] Got the order. order-id:38, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:29,302 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:35, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,302 DEBUG Table [pool-2-thread-1] food delivered. order-id:35, table:1, waiter:waiter1
+2023-07-28 11:07:29,302 DEBUG Table [pool-2-thread-1] eating now. order-id:35, table:1, waiter:waiter1
+2023-07-28 11:07:29,303 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:29,303 DEBUG Chef [pool-2-thread-11] Got the order. order-id:39, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,367 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:29,368 DEBUG Table [pool-2-thread-4] placing the order. order-id:40, table:4, waiter:waiter2
+2023-07-28 11:07:29,368 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:40, table:4, waiter:waiter2
+2023-07-28 11:07:29,368 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:36, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,368 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:29,368 DEBUG Table [pool-2-thread-3] food delivered. order-id:36, table:3, waiter:waiter2
+2023-07-28 11:07:29,368 DEBUG Chef [pool-2-thread-12] Got the order. order-id:40, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,368 DEBUG Table [pool-2-thread-3] eating now. order-id:36, table:3, waiter:waiter2
+2023-07-28 11:07:29,370 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:37, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,370 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:29,370 DEBUG Table [pool-2-thread-7] food delivered. order-id:37, table:7, waiter:waiter4
+2023-07-28 11:07:29,370 DEBUG Table [pool-2-thread-7] eating now. order-id:37, table:7, waiter:waiter4
+2023-07-28 11:07:29,370 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:29,370 DEBUG Table [pool-2-thread-5] placing the order. order-id:41, table:5, waiter:waiter3
+2023-07-28 11:07:29,371 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:41, table:5, waiter:waiter3
+2023-07-28 11:07:29,371 DEBUG Chef [pool-2-thread-9] Got the order. order-id:41, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,399 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:29,401 DEBUG Table [pool-2-thread-8] placing the order. order-id:42, table:8, waiter:waiter4
+2023-07-28 11:07:29,401 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:42, table:8, waiter:waiter4
+2023-07-28 11:07:29,401 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:38, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:29,402 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:29,402 DEBUG Chef [pool-2-thread-10] Got the order. order-id:42, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:29,402 DEBUG Table [pool-2-thread-2] food delivered. order-id:38, table:2, waiter:waiter1
+2023-07-28 11:07:29,403 DEBUG Table [pool-2-thread-2] eating now. order-id:38, table:2, waiter:waiter1
+2023-07-28 11:07:29,403 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:29,403 DEBUG Table [pool-2-thread-1] placing the order. order-id:43, table:1, waiter:waiter1
+2023-07-28 11:07:29,403 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:39, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,403 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:43, table:1, waiter:waiter1
+2023-07-28 11:07:29,403 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:29,403 DEBUG Chef [pool-2-thread-11] Got the order. order-id:43, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,403 DEBUG Table [pool-2-thread-6] food delivered. order-id:39, table:6, waiter:waiter3
+2023-07-28 11:07:29,404 DEBUG Table [pool-2-thread-6] eating now. order-id:39, table:6, waiter:waiter3
+2023-07-28 11:07:29,469 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:40, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,469 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:29,469 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:29,469 DEBUG Table [pool-2-thread-3] placing the order. order-id:44, table:3, waiter:waiter2
+2023-07-28 11:07:29,469 DEBUG Table [pool-2-thread-4] food delivered. order-id:40, table:4, waiter:waiter2
+2023-07-28 11:07:29,469 DEBUG Table [pool-2-thread-4] eating now. order-id:40, table:4, waiter:waiter2
+2023-07-28 11:07:29,469 DEBUG Chef [pool-2-thread-12] Got the order. order-id:44, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,469 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:44, table:3, waiter:waiter2
+2023-07-28 11:07:29,470 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:29,471 DEBUG Table [pool-2-thread-7] placing the order. order-id:45, table:7, waiter:waiter4
+2023-07-28 11:07:29,471 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:41, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,471 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:29,471 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:45, table:7, waiter:waiter4
+2023-07-28 11:07:29,471 DEBUG Table [pool-2-thread-5] food delivered. order-id:41, table:5, waiter:waiter3
+2023-07-28 11:07:29,471 DEBUG Table [pool-2-thread-5] eating now. order-id:41, table:5, waiter:waiter3
+2023-07-28 11:07:29,471 DEBUG Chef [pool-2-thread-9] Got the order. order-id:45, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,502 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:42, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:29,503 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:29,503 DEBUG Table [pool-2-thread-8] food delivered. order-id:42, table:8, waiter:waiter4
+2023-07-28 11:07:29,503 DEBUG Table [pool-2-thread-8] eating now. order-id:42, table:8, waiter:waiter4
+2023-07-28 11:07:29,503 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:29,503 DEBUG Table [pool-2-thread-2] placing the order. order-id:46, table:2, waiter:waiter1
+2023-07-28 11:07:29,503 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:46, table:2, waiter:waiter1
+2023-07-28 11:07:29,503 DEBUG Chef [pool-2-thread-10] Got the order. order-id:46, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:29,503 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:43, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,503 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:29,503 DEBUG Table [pool-2-thread-1] food delivered. order-id:43, table:1, waiter:waiter1
+2023-07-28 11:07:29,504 DEBUG Table [pool-2-thread-1] eating now. order-id:43, table:1, waiter:waiter1
+2023-07-28 11:07:29,504 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:29,504 DEBUG Table [pool-2-thread-6] placing the order. order-id:47, table:6, waiter:waiter3
+2023-07-28 11:07:29,504 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:47, table:6, waiter:waiter3
+2023-07-28 11:07:29,504 DEBUG Chef [pool-2-thread-11] Got the order. order-id:47, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,569 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:44, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,569 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:29,570 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:29,570 DEBUG Table [pool-2-thread-4] placing the order. order-id:48, table:4, waiter:waiter2
+2023-07-28 11:07:29,570 DEBUG Table [pool-2-thread-3] food delivered. order-id:44, table:3, waiter:waiter2
+2023-07-28 11:07:29,570 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:48, table:4, waiter:waiter2
+2023-07-28 11:07:29,570 DEBUG Chef [pool-2-thread-12] Got the order. order-id:48, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,570 DEBUG Table [pool-2-thread-3] eating now. order-id:44, table:3, waiter:waiter2
+2023-07-28 11:07:29,572 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:29,572 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:45, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,572 DEBUG Table [pool-2-thread-5] placing the order. order-id:49, table:5, waiter:waiter3
+2023-07-28 11:07:29,572 DEBUG Table [pool-2-thread-7] food delivered. order-id:45, table:7, waiter:waiter4
+2023-07-28 11:07:29,572 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:29,572 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:49, table:5, waiter:waiter3
+2023-07-28 11:07:29,572 DEBUG Table [pool-2-thread-7] eating now. order-id:45, table:7, waiter:waiter4
+2023-07-28 11:07:29,572 DEBUG Chef [pool-2-thread-9] Got the order. order-id:49, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,603 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:29,604 DEBUG Table [pool-2-thread-8] placing the order. order-id:50, table:8, waiter:waiter4
+2023-07-28 11:07:29,604 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:50, table:8, waiter:waiter4
+2023-07-28 11:07:29,604 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:47, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,605 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:29,605 DEBUG Table [pool-2-thread-6] food delivered. order-id:47, table:6, waiter:waiter3
+2023-07-28 11:07:29,605 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:29,605 DEBUG Table [pool-2-thread-1] placing the order. order-id:51, table:1, waiter:waiter1
+2023-07-28 11:07:29,605 DEBUG Chef [pool-2-thread-11] Got the order. order-id:50, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,605 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:51, table:1, waiter:waiter1
+2023-07-28 11:07:29,603 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:46, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:29,605 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:29,605 DEBUG Chef [pool-2-thread-10] Got the order. order-id:51, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:29,605 DEBUG Table [pool-2-thread-6] eating now. order-id:47, table:6, waiter:waiter3
+2023-07-28 11:07:29,605 DEBUG Table [pool-2-thread-2] food delivered. order-id:46, table:2, waiter:waiter1
+2023-07-28 11:07:29,606 DEBUG Table [pool-2-thread-2] eating now. order-id:46, table:2, waiter:waiter1
+2023-07-28 11:07:29,670 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:48, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,670 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:29,670 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:29,670 DEBUG Table [pool-2-thread-3] placing the order. order-id:52, table:3, waiter:waiter2
+2023-07-28 11:07:29,671 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:52, table:3, waiter:waiter2
+2023-07-28 11:07:29,671 DEBUG Chef [pool-2-thread-12] Got the order. order-id:52, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,671 DEBUG Table [pool-2-thread-4] food delivered. order-id:48, table:4, waiter:waiter2
+2023-07-28 11:07:29,671 DEBUG Table [pool-2-thread-4] eating now. order-id:48, table:4, waiter:waiter2
+2023-07-28 11:07:29,672 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:29,672 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:49, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,673 DEBUG Table [pool-2-thread-7] placing the order. order-id:53, table:7, waiter:waiter4
+2023-07-28 11:07:29,673 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:53, table:7, waiter:waiter4
+2023-07-28 11:07:29,673 DEBUG Table [pool-2-thread-5] food delivered. order-id:49, table:5, waiter:waiter3
+2023-07-28 11:07:29,673 DEBUG Table [pool-2-thread-5] eating now. order-id:49, table:5, waiter:waiter3
+2023-07-28 11:07:29,673 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:29,674 DEBUG Chef [pool-2-thread-9] Got the order. order-id:53, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,705 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:50, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,705 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:29,705 DEBUG Table [pool-2-thread-8] food delivered. order-id:50, table:8, waiter:waiter4
+2023-07-28 11:07:29,706 DEBUG Table [pool-2-thread-8] eating now. order-id:50, table:8, waiter:waiter4
+2023-07-28 11:07:29,706 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:51, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:29,706 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:29,706 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:29,706 DEBUG Table [pool-2-thread-1] food delivered. order-id:51, table:1, waiter:waiter1
+2023-07-28 11:07:29,706 DEBUG Table [pool-2-thread-6] placing the order. order-id:54, table:6, waiter:waiter3
+2023-07-28 11:07:29,706 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:29,706 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:54, table:6, waiter:waiter3
+2023-07-28 11:07:29,706 DEBUG Chef [pool-2-thread-11] Got the order. order-id:54, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,706 DEBUG Table [pool-2-thread-1] eating now. order-id:51, table:1, waiter:waiter1
+2023-07-28 11:07:29,706 DEBUG Table [pool-2-thread-2] placing the order. order-id:55, table:2, waiter:waiter1
+2023-07-28 11:07:29,706 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:55, table:2, waiter:waiter1
+2023-07-28 11:07:29,706 DEBUG Chef [pool-2-thread-10] Got the order. order-id:55, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:29,771 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:52, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,771 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:29,771 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:29,771 DEBUG Table [pool-2-thread-3] food delivered. order-id:52, table:3, waiter:waiter2
+2023-07-28 11:07:29,771 DEBUG Table [pool-2-thread-4] placing the order. order-id:56, table:4, waiter:waiter2
+2023-07-28 11:07:29,771 DEBUG Table [pool-2-thread-3] eating now. order-id:52, table:3, waiter:waiter2
+2023-07-28 11:07:29,772 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:56, table:4, waiter:waiter2
+2023-07-28 11:07:29,772 DEBUG Chef [pool-2-thread-12] Got the order. order-id:56, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,774 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:29,774 DEBUG Table [pool-2-thread-5] placing the order. order-id:57, table:5, waiter:waiter3
+2023-07-28 11:07:29,774 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:53, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,774 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:57, table:5, waiter:waiter3
+2023-07-28 11:07:29,774 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:29,774 DEBUG Table [pool-2-thread-7] food delivered. order-id:53, table:7, waiter:waiter4
+2023-07-28 11:07:29,774 DEBUG Chef [pool-2-thread-9] Got the order. order-id:57, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,774 DEBUG Table [pool-2-thread-7] eating now. order-id:53, table:7, waiter:waiter4
+2023-07-28 11:07:29,806 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:29,806 DEBUG Table [pool-2-thread-8] placing the order. order-id:58, table:8, waiter:waiter4
+2023-07-28 11:07:29,806 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:54, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,806 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:29,806 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:58, table:8, waiter:waiter4
+2023-07-28 11:07:29,806 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:29,806 DEBUG Table [pool-2-thread-1] placing the order. order-id:59, table:1, waiter:waiter1
+2023-07-28 11:07:29,807 DEBUG Chef [pool-2-thread-11] Got the order. order-id:58, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,807 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:59, table:1, waiter:waiter1
+2023-07-28 11:07:29,807 DEBUG Table [pool-2-thread-6] food delivered. order-id:54, table:6, waiter:waiter3
+2023-07-28 11:07:29,807 DEBUG Table [pool-2-thread-6] eating now. order-id:54, table:6, waiter:waiter3
+2023-07-28 11:07:29,807 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:55, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:29,807 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:29,807 DEBUG Chef [pool-2-thread-10] Got the order. order-id:59, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:29,807 DEBUG Table [pool-2-thread-2] food delivered. order-id:55, table:2, waiter:waiter1
+2023-07-28 11:07:29,808 DEBUG Table [pool-2-thread-2] eating now. order-id:55, table:2, waiter:waiter1
+2023-07-28 11:07:29,872 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:29,872 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:56, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,873 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:29,873 DEBUG Table [pool-2-thread-4] food delivered. order-id:56, table:4, waiter:waiter2
+2023-07-28 11:07:29,873 DEBUG Table [pool-2-thread-4] eating now. order-id:56, table:4, waiter:waiter2
+2023-07-28 11:07:29,872 DEBUG Table [pool-2-thread-3] placing the order. order-id:60, table:3, waiter:waiter2
+2023-07-28 11:07:29,873 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:60, table:3, waiter:waiter2
+2023-07-28 11:07:29,873 DEBUG Chef [pool-2-thread-12] Got the order. order-id:60, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,874 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:57, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,874 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:29,875 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:29,875 DEBUG Table [pool-2-thread-7] placing the order. order-id:61, table:7, waiter:waiter4
+2023-07-28 11:07:29,875 DEBUG Table [pool-2-thread-5] food delivered. order-id:57, table:5, waiter:waiter3
+2023-07-28 11:07:29,875 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:61, table:7, waiter:waiter4
+2023-07-28 11:07:29,875 DEBUG Table [pool-2-thread-5] eating now. order-id:57, table:5, waiter:waiter3
+2023-07-28 11:07:29,875 DEBUG Chef [pool-2-thread-9] Got the order. order-id:61, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,907 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:58, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,907 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:29,907 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:29,907 DEBUG Table [pool-2-thread-8] food delivered. order-id:58, table:8, waiter:waiter4
+2023-07-28 11:07:29,907 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:59, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:29,907 DEBUG Table [pool-2-thread-8] eating now. order-id:58, table:8, waiter:waiter4
+2023-07-28 11:07:29,907 DEBUG Table [pool-2-thread-6] placing the order. order-id:62, table:6, waiter:waiter3
+2023-07-28 11:07:29,907 DEBUG Table [pool-2-thread-1] food delivered. order-id:59, table:1, waiter:waiter1
+2023-07-28 11:07:29,907 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:62, table:6, waiter:waiter3
+2023-07-28 11:07:29,907 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:29,908 DEBUG Chef [pool-2-thread-10] Got the order. order-id:62, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:29,908 DEBUG Table [pool-2-thread-1] eating now. order-id:59, table:1, waiter:waiter1
+2023-07-28 11:07:29,908 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:29,908 DEBUG Table [pool-2-thread-2] placing the order. order-id:63, table:2, waiter:waiter1
+2023-07-28 11:07:29,908 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:63, table:2, waiter:waiter1
+2023-07-28 11:07:29,908 DEBUG Chef [pool-2-thread-11] Got the order. order-id:63, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:29,973 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:29,974 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:60, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,974 DEBUG Table [pool-2-thread-4] placing the order. order-id:64, table:4, waiter:waiter2
+2023-07-28 11:07:29,974 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:29,974 DEBUG Table [pool-2-thread-3] food delivered. order-id:60, table:3, waiter:waiter2
+2023-07-28 11:07:29,974 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:64, table:4, waiter:waiter2
+2023-07-28 11:07:29,974 DEBUG Chef [pool-2-thread-12] Got the order. order-id:64, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:29,974 DEBUG Table [pool-2-thread-3] eating now. order-id:60, table:3, waiter:waiter2
+2023-07-28 11:07:29,975 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:29,975 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:61, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:29,976 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:29,976 DEBUG Table [pool-2-thread-5] placing the order. order-id:65, table:5, waiter:waiter3
+2023-07-28 11:07:29,976 DEBUG Table [pool-2-thread-7] food delivered. order-id:61, table:7, waiter:waiter4
+2023-07-28 11:07:29,976 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:65, table:5, waiter:waiter3
+2023-07-28 11:07:29,976 DEBUG Table [pool-2-thread-7] eating now. order-id:61, table:7, waiter:waiter4
+2023-07-28 11:07:29,976 DEBUG Chef [pool-2-thread-9] Got the order. order-id:65, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,008 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:30,008 DEBUG Table [pool-2-thread-8] placing the order. order-id:66, table:8, waiter:waiter4
+2023-07-28 11:07:30,008 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:66, table:8, waiter:waiter4
+2023-07-28 11:07:30,009 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:62, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,009 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:30,009 DEBUG Chef [pool-2-thread-10] Got the order. order-id:66, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,009 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:30,010 DEBUG Table [pool-2-thread-1] placing the order. order-id:67, table:1, waiter:waiter1
+2023-07-28 11:07:30,010 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:67, table:1, waiter:waiter1
+2023-07-28 11:07:30,010 DEBUG Table [pool-2-thread-6] food delivered. order-id:62, table:6, waiter:waiter3
+2023-07-28 11:07:30,010 DEBUG Table [pool-2-thread-6] eating now. order-id:62, table:6, waiter:waiter3
+2023-07-28 11:07:30,008 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:63, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,010 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:30,010 DEBUG Chef [pool-2-thread-11] Got the order. order-id:67, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,010 DEBUG Table [pool-2-thread-2] food delivered. order-id:63, table:2, waiter:waiter1
+2023-07-28 11:07:30,011 DEBUG Table [pool-2-thread-2] eating now. order-id:63, table:2, waiter:waiter1
+2023-07-28 11:07:30,074 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:30,075 DEBUG Table [pool-2-thread-3] placing the order. order-id:68, table:3, waiter:waiter2
+2023-07-28 11:07:30,074 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:64, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,075 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:68, table:3, waiter:waiter2
+2023-07-28 11:07:30,075 DEBUG Table [pool-2-thread-4] food delivered. order-id:64, table:4, waiter:waiter2
+2023-07-28 11:07:30,075 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:30,075 DEBUG Table [pool-2-thread-4] eating now. order-id:64, table:4, waiter:waiter2
+2023-07-28 11:07:30,075 DEBUG Chef [pool-2-thread-12] Got the order. order-id:68, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,076 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:30,076 DEBUG Table [pool-2-thread-7] placing the order. order-id:69, table:7, waiter:waiter4
+2023-07-28 11:07:30,076 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:65, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,076 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:69, table:7, waiter:waiter4
+2023-07-28 11:07:30,077 DEBUG Table [pool-2-thread-5] food delivered. order-id:65, table:5, waiter:waiter3
+2023-07-28 11:07:30,077 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:30,077 DEBUG Table [pool-2-thread-5] eating now. order-id:65, table:5, waiter:waiter3
+2023-07-28 11:07:30,077 DEBUG Chef [pool-2-thread-9] Got the order. order-id:69, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,110 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:66, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,110 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:30,110 DEBUG Table [pool-2-thread-8] food delivered. order-id:66, table:8, waiter:waiter4
+2023-07-28 11:07:30,110 DEBUG Table [pool-2-thread-8] eating now. order-id:66, table:8, waiter:waiter4
+2023-07-28 11:07:30,110 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:30,110 DEBUG Table [pool-2-thread-6] placing the order. order-id:70, table:6, waiter:waiter3
+2023-07-28 11:07:30,110 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:70, table:6, waiter:waiter3
+2023-07-28 11:07:30,110 DEBUG Chef [pool-2-thread-10] Got the order. order-id:70, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,110 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:67, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,111 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:30,111 DEBUG Table [pool-2-thread-1] food delivered. order-id:67, table:1, waiter:waiter1
+2023-07-28 11:07:30,111 DEBUG Table [pool-2-thread-1] eating now. order-id:67, table:1, waiter:waiter1
+2023-07-28 11:07:30,111 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:30,111 DEBUG Table [pool-2-thread-2] placing the order. order-id:71, table:2, waiter:waiter1
+2023-07-28 11:07:30,111 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:71, table:2, waiter:waiter1
+2023-07-28 11:07:30,111 DEBUG Chef [pool-2-thread-11] Got the order. order-id:71, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,175 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:30,175 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:68, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,175 DEBUG Table [pool-2-thread-4] placing the order. order-id:72, table:4, waiter:waiter2
+2023-07-28 11:07:30,175 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:30,175 DEBUG Table [pool-2-thread-3] food delivered. order-id:68, table:3, waiter:waiter2
+2023-07-28 11:07:30,175 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:72, table:4, waiter:waiter2
+2023-07-28 11:07:30,175 DEBUG Chef [pool-2-thread-12] Got the order. order-id:72, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,175 DEBUG Table [pool-2-thread-3] eating now. order-id:68, table:3, waiter:waiter2
+2023-07-28 11:07:30,177 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:69, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,177 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:30,177 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:30,177 DEBUG Table [pool-2-thread-7] food delivered. order-id:69, table:7, waiter:waiter4
+2023-07-28 11:07:30,177 DEBUG Table [pool-2-thread-5] placing the order. order-id:73, table:5, waiter:waiter3
+2023-07-28 11:07:30,177 DEBUG Table [pool-2-thread-7] eating now. order-id:69, table:7, waiter:waiter4
+2023-07-28 11:07:30,177 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:73, table:5, waiter:waiter3
+2023-07-28 11:07:30,177 DEBUG Chef [pool-2-thread-9] Got the order. order-id:73, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,210 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:30,210 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:70, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,211 DEBUG Table [pool-2-thread-8] placing the order. order-id:74, table:8, waiter:waiter4
+2023-07-28 11:07:30,211 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:30,211 DEBUG Table [pool-2-thread-6] food delivered. order-id:70, table:6, waiter:waiter3
+2023-07-28 11:07:30,211 DEBUG Chef [pool-2-thread-10] Got the order. order-id:74, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,211 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:74, table:8, waiter:waiter4
+2023-07-28 11:07:30,211 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:30,211 DEBUG Table [pool-2-thread-6] eating now. order-id:70, table:6, waiter:waiter3
+2023-07-28 11:07:30,211 DEBUG Table [pool-2-thread-1] placing the order. order-id:75, table:1, waiter:waiter1
+2023-07-28 11:07:30,211 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:71, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,211 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:75, table:1, waiter:waiter1
+2023-07-28 11:07:30,211 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:30,211 DEBUG Table [pool-2-thread-2] food delivered. order-id:71, table:2, waiter:waiter1
+2023-07-28 11:07:30,211 DEBUG Chef [pool-2-thread-11] Got the order. order-id:75, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,211 DEBUG Table [pool-2-thread-2] eating now. order-id:71, table:2, waiter:waiter1
+2023-07-28 11:07:30,276 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:30,276 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:72, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,276 DEBUG Table [pool-2-thread-3] placing the order. order-id:76, table:3, waiter:waiter2
+2023-07-28 11:07:30,276 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:30,276 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:76, table:3, waiter:waiter2
+2023-07-28 11:07:30,276 DEBUG Table [pool-2-thread-4] food delivered. order-id:72, table:4, waiter:waiter2
+2023-07-28 11:07:30,276 DEBUG Chef [pool-2-thread-12] Got the order. order-id:76, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,276 DEBUG Table [pool-2-thread-4] eating now. order-id:72, table:4, waiter:waiter2
+2023-07-28 11:07:30,277 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:30,277 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:73, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,278 DEBUG Table [pool-2-thread-7] placing the order. order-id:77, table:7, waiter:waiter4
+2023-07-28 11:07:30,278 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:30,278 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:77, table:7, waiter:waiter4
+2023-07-28 11:07:30,278 DEBUG Chef [pool-2-thread-9] Got the order. order-id:77, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,278 DEBUG Table [pool-2-thread-5] food delivered. order-id:73, table:5, waiter:waiter3
+2023-07-28 11:07:30,278 DEBUG Table [pool-2-thread-5] eating now. order-id:73, table:5, waiter:waiter3
+2023-07-28 11:07:30,311 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:74, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,311 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:30,311 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:30,311 DEBUG Table [pool-2-thread-8] food delivered. order-id:74, table:8, waiter:waiter4
+2023-07-28 11:07:30,311 DEBUG Table [pool-2-thread-6] placing the order. order-id:78, table:6, waiter:waiter3
+2023-07-28 11:07:30,312 DEBUG Table [pool-2-thread-8] eating now. order-id:74, table:8, waiter:waiter4
+2023-07-28 11:07:30,312 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:78, table:6, waiter:waiter3
+2023-07-28 11:07:30,312 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:75, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,312 DEBUG Chef [pool-2-thread-10] Got the order. order-id:78, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,312 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:30,312 DEBUG Table [pool-2-thread-1] food delivered. order-id:75, table:1, waiter:waiter1
+2023-07-28 11:07:30,312 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:30,312 DEBUG Table [pool-2-thread-2] placing the order. order-id:79, table:2, waiter:waiter1
+2023-07-28 11:07:30,312 DEBUG Table [pool-2-thread-1] eating now. order-id:75, table:1, waiter:waiter1
+2023-07-28 11:07:30,312 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:79, table:2, waiter:waiter1
+2023-07-28 11:07:30,312 DEBUG Chef [pool-2-thread-11] Got the order. order-id:79, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,376 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:76, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,377 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:30,377 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:30,377 DEBUG Table [pool-2-thread-4] placing the order. order-id:80, table:4, waiter:waiter2
+2023-07-28 11:07:30,377 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:80, table:4, waiter:waiter2
+2023-07-28 11:07:30,377 DEBUG Chef [pool-2-thread-12] Got the order. order-id:80, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,377 DEBUG Table [pool-2-thread-3] food delivered. order-id:76, table:3, waiter:waiter2
+2023-07-28 11:07:30,377 DEBUG Table [pool-2-thread-3] eating now. order-id:76, table:3, waiter:waiter2
+2023-07-28 11:07:30,378 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:77, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,378 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:30,378 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:30,378 DEBUG Table [pool-2-thread-5] placing the order. order-id:81, table:5, waiter:waiter3
+2023-07-28 11:07:30,379 DEBUG Table [pool-2-thread-7] food delivered. order-id:77, table:7, waiter:waiter4
+2023-07-28 11:07:30,379 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:81, table:5, waiter:waiter3
+2023-07-28 11:07:30,379 DEBUG Table [pool-2-thread-7] eating now. order-id:77, table:7, waiter:waiter4
+2023-07-28 11:07:30,379 DEBUG Chef [pool-2-thread-9] Got the order. order-id:81, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,412 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:78, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,412 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:30,412 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:30,412 DEBUG Table [pool-2-thread-1] placing the order. order-id:82, table:1, waiter:waiter1
+2023-07-28 11:07:30,412 DEBUG Table [pool-2-thread-6] food delivered. order-id:78, table:6, waiter:waiter3
+2023-07-28 11:07:30,412 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:82, table:1, waiter:waiter1
+2023-07-28 11:07:30,412 DEBUG Table [pool-2-thread-8] placing the order. order-id:83, table:8, waiter:waiter4
+2023-07-28 11:07:30,412 DEBUG Table [pool-2-thread-6] eating now. order-id:78, table:6, waiter:waiter3
+2023-07-28 11:07:30,412 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:30,412 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:83, table:8, waiter:waiter4
+2023-07-28 11:07:30,412 DEBUG Chef [pool-2-thread-10] Got the order. order-id:82, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,413 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:79, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,413 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:30,413 DEBUG Table [pool-2-thread-2] food delivered. order-id:79, table:2, waiter:waiter1
+2023-07-28 11:07:30,413 DEBUG Chef [pool-2-thread-11] Got the order. order-id:83, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,413 DEBUG Table [pool-2-thread-2] eating now. order-id:79, table:2, waiter:waiter1
+2023-07-28 11:07:30,477 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:30,477 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:80, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,478 DEBUG Table [pool-2-thread-3] placing the order. order-id:84, table:3, waiter:waiter2
+2023-07-28 11:07:30,478 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:30,478 DEBUG Table [pool-2-thread-4] food delivered. order-id:80, table:4, waiter:waiter2
+2023-07-28 11:07:30,478 DEBUG Chef [pool-2-thread-12] Got the order. order-id:84, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,478 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:84, table:3, waiter:waiter2
+2023-07-28 11:07:30,478 DEBUG Table [pool-2-thread-4] eating now. order-id:80, table:4, waiter:waiter2
+2023-07-28 11:07:30,479 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:30,479 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:81, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,479 DEBUG Table [pool-2-thread-7] placing the order. order-id:85, table:7, waiter:waiter4
+2023-07-28 11:07:30,479 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:30,479 DEBUG Table [pool-2-thread-5] food delivered. order-id:81, table:5, waiter:waiter3
+2023-07-28 11:07:30,479 DEBUG Chef [pool-2-thread-9] Got the order. order-id:85, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,479 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:85, table:7, waiter:waiter4
+2023-07-28 11:07:30,479 DEBUG Table [pool-2-thread-5] eating now. order-id:81, table:5, waiter:waiter3
+2023-07-28 11:07:30,513 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:30,513 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:82, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,513 DEBUG Table [pool-2-thread-6] placing the order. order-id:86, table:6, waiter:waiter3
+2023-07-28 11:07:30,513 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:30,513 DEBUG Table [pool-2-thread-1] food delivered. order-id:82, table:1, waiter:waiter1
+2023-07-28 11:07:30,513 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:86, table:6, waiter:waiter3
+2023-07-28 11:07:30,513 DEBUG Chef [pool-2-thread-10] Got the order. order-id:86, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,513 DEBUG Table [pool-2-thread-1] eating now. order-id:82, table:1, waiter:waiter1
+2023-07-28 11:07:30,513 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:83, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,513 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:30,513 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:30,513 DEBUG Table [pool-2-thread-2] placing the order. order-id:87, table:2, waiter:waiter1
+2023-07-28 11:07:30,513 DEBUG Table [pool-2-thread-8] food delivered. order-id:83, table:8, waiter:waiter4
+2023-07-28 11:07:30,513 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:87, table:2, waiter:waiter1
+2023-07-28 11:07:30,513 DEBUG Table [pool-2-thread-8] eating now. order-id:83, table:8, waiter:waiter4
+2023-07-28 11:07:30,513 DEBUG Chef [pool-2-thread-11] Got the order. order-id:87, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,578 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:84, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,578 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:30,578 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:30,578 DEBUG Table [pool-2-thread-4] placing the order. order-id:88, table:4, waiter:waiter2
+2023-07-28 11:07:30,578 DEBUG Table [pool-2-thread-3] food delivered. order-id:84, table:3, waiter:waiter2
+2023-07-28 11:07:30,578 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:88, table:4, waiter:waiter2
+2023-07-28 11:07:30,578 DEBUG Chef [pool-2-thread-12] Got the order. order-id:88, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,578 DEBUG Table [pool-2-thread-3] eating now. order-id:84, table:3, waiter:waiter2
+2023-07-28 11:07:30,579 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:85, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,579 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:30,579 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:30,579 DEBUG Table [pool-2-thread-7] food delivered. order-id:85, table:7, waiter:waiter4
+2023-07-28 11:07:30,580 DEBUG Table [pool-2-thread-5] placing the order. order-id:89, table:5, waiter:waiter3
+2023-07-28 11:07:30,580 DEBUG Table [pool-2-thread-7] eating now. order-id:85, table:7, waiter:waiter4
+2023-07-28 11:07:30,580 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:89, table:5, waiter:waiter3
+2023-07-28 11:07:30,580 DEBUG Chef [pool-2-thread-9] Got the order. order-id:89, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,613 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:86, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,613 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:30,613 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:30,613 DEBUG Table [pool-2-thread-6] food delivered. order-id:86, table:6, waiter:waiter3
+2023-07-28 11:07:30,613 DEBUG Table [pool-2-thread-1] placing the order. order-id:90, table:1, waiter:waiter1
+2023-07-28 11:07:30,613 DEBUG Table [pool-2-thread-6] eating now. order-id:86, table:6, waiter:waiter3
+2023-07-28 11:07:30,613 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:90, table:1, waiter:waiter1
+2023-07-28 11:07:30,613 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:30,613 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:87, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,613 DEBUG Chef [pool-2-thread-10] Got the order. order-id:90, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,614 DEBUG Table [pool-2-thread-8] placing the order. order-id:91, table:8, waiter:waiter4
+2023-07-28 11:07:30,614 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:30,614 DEBUG Table [pool-2-thread-2] food delivered. order-id:87, table:2, waiter:waiter1
+2023-07-28 11:07:30,614 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:91, table:8, waiter:waiter4
+2023-07-28 11:07:30,614 DEBUG Chef [pool-2-thread-11] Got the order. order-id:91, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,614 DEBUG Table [pool-2-thread-2] eating now. order-id:87, table:2, waiter:waiter1
+2023-07-28 11:07:30,679 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:88, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,679 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:30,679 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:30,679 DEBUG Table [pool-2-thread-3] placing the order. order-id:92, table:3, waiter:waiter2
+2023-07-28 11:07:30,679 DEBUG Table [pool-2-thread-4] food delivered. order-id:88, table:4, waiter:waiter2
+2023-07-28 11:07:30,679 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:92, table:3, waiter:waiter2
+2023-07-28 11:07:30,679 DEBUG Chef [pool-2-thread-12] Got the order. order-id:92, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,679 DEBUG Table [pool-2-thread-4] eating now. order-id:88, table:4, waiter:waiter2
+2023-07-28 11:07:30,680 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:30,680 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:89, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,680 DEBUG Table [pool-2-thread-7] placing the order. order-id:93, table:7, waiter:waiter4
+2023-07-28 11:07:30,680 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:30,680 DEBUG Table [pool-2-thread-5] food delivered. order-id:89, table:5, waiter:waiter3
+2023-07-28 11:07:30,680 DEBUG Chef [pool-2-thread-9] Got the order. order-id:93, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,680 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:93, table:7, waiter:waiter4
+2023-07-28 11:07:30,680 DEBUG Table [pool-2-thread-5] eating now. order-id:89, table:5, waiter:waiter3
+2023-07-28 11:07:30,714 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:30,714 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:90, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,714 DEBUG Table [pool-2-thread-6] placing the order. order-id:94, table:6, waiter:waiter3
+2023-07-28 11:07:30,714 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:30,714 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:91, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,714 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:94, table:6, waiter:waiter3
+2023-07-28 11:07:30,714 DEBUG Table [pool-2-thread-1] food delivered. order-id:90, table:1, waiter:waiter1
+2023-07-28 11:07:30,714 DEBUG Chef [pool-2-thread-10] Got the order. order-id:94, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,714 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:30,714 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:30,714 DEBUG Table [pool-2-thread-8] food delivered. order-id:91, table:8, waiter:waiter4
+2023-07-28 11:07:30,714 DEBUG Table [pool-2-thread-2] placing the order. order-id:95, table:2, waiter:waiter1
+2023-07-28 11:07:30,714 DEBUG Table [pool-2-thread-8] eating now. order-id:91, table:8, waiter:waiter4
+2023-07-28 11:07:30,714 DEBUG Table [pool-2-thread-1] eating now. order-id:90, table:1, waiter:waiter1
+2023-07-28 11:07:30,714 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:95, table:2, waiter:waiter1
+2023-07-28 11:07:30,714 DEBUG Chef [pool-2-thread-11] Got the order. order-id:95, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,779 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:92, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,779 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:30,779 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:30,779 DEBUG Table [pool-2-thread-4] placing the order. order-id:96, table:4, waiter:waiter2
+2023-07-28 11:07:30,779 DEBUG Table [pool-2-thread-3] food delivered. order-id:92, table:3, waiter:waiter2
+2023-07-28 11:07:30,779 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:96, table:4, waiter:waiter2
+2023-07-28 11:07:30,779 DEBUG Table [pool-2-thread-3] eating now. order-id:92, table:3, waiter:waiter2
+2023-07-28 11:07:30,780 DEBUG Chef [pool-2-thread-12] Got the order. order-id:96, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,780 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:93, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,780 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:30,780 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:30,780 DEBUG Table [pool-2-thread-7] food delivered. order-id:93, table:7, waiter:waiter4
+2023-07-28 11:07:30,780 DEBUG Table [pool-2-thread-5] placing the order. order-id:97, table:5, waiter:waiter3
+2023-07-28 11:07:30,780 DEBUG Table [pool-2-thread-7] eating now. order-id:93, table:7, waiter:waiter4
+2023-07-28 11:07:30,781 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:97, table:5, waiter:waiter3
+2023-07-28 11:07:30,781 DEBUG Chef [pool-2-thread-9] Got the order. order-id:97, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,814 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:95, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,814 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:30,815 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:30,815 DEBUG Table [pool-2-thread-2] food delivered. order-id:95, table:2, waiter:waiter1
+2023-07-28 11:07:30,815 DEBUG Table [pool-2-thread-2] eating now. order-id:95, table:2, waiter:waiter1
+2023-07-28 11:07:30,814 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:94, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,814 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:30,815 DEBUG Table [pool-2-thread-1] placing the order. order-id:98, table:1, waiter:waiter1
+2023-07-28 11:07:30,815 DEBUG Table [pool-2-thread-6] food delivered. order-id:94, table:6, waiter:waiter3
+2023-07-28 11:07:30,815 DEBUG Table [pool-2-thread-8] placing the order. order-id:99, table:8, waiter:waiter4
+2023-07-28 11:07:30,815 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:99, table:8, waiter:waiter4
+2023-07-28 11:07:30,815 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:98, table:1, waiter:waiter1
+2023-07-28 11:07:30,815 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:30,815 DEBUG Chef [pool-2-thread-11] Got the order. order-id:98, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,815 DEBUG Table [pool-2-thread-6] eating now. order-id:94, table:6, waiter:waiter3
+2023-07-28 11:07:30,815 DEBUG Chef [pool-2-thread-10] Got the order. order-id:99, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,880 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:96, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,880 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:30,880 DEBUG Table [pool-2-thread-4] food delivered. order-id:96, table:4, waiter:waiter2
+2023-07-28 11:07:30,880 DEBUG Table [pool-2-thread-4] eating now. order-id:96, table:4, waiter:waiter2
+2023-07-28 11:07:30,880 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:30,880 DEBUG Table [pool-2-thread-3] placing the order. order-id:100, table:3, waiter:waiter2
+2023-07-28 11:07:30,881 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:100, table:3, waiter:waiter2
+2023-07-28 11:07:30,881 DEBUG Chef [pool-2-thread-12] Got the order. order-id:100, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,881 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:30,881 DEBUG Table [pool-2-thread-7] placing the order. order-id:101, table:7, waiter:waiter4
+2023-07-28 11:07:30,881 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:101, table:7, waiter:waiter4
+2023-07-28 11:07:30,881 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:97, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,881 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:30,881 DEBUG Table [pool-2-thread-5] food delivered. order-id:97, table:5, waiter:waiter3
+2023-07-28 11:07:30,881 DEBUG Chef [pool-2-thread-9] Got the order. order-id:101, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,881 DEBUG Table [pool-2-thread-5] eating now. order-id:97, table:5, waiter:waiter3
+2023-07-28 11:07:30,915 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:30,915 DEBUG Table [pool-2-thread-2] placing the order. order-id:102, table:2, waiter:waiter1
+2023-07-28 11:07:30,915 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:102, table:2, waiter:waiter1
+2023-07-28 11:07:30,915 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:98, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,915 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:99, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,915 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:30,915 DEBUG Table [pool-2-thread-1] food delivered. order-id:98, table:1, waiter:waiter1
+2023-07-28 11:07:30,915 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:30,915 DEBUG Table [pool-2-thread-8] food delivered. order-id:99, table:8, waiter:waiter4
+2023-07-28 11:07:30,915 DEBUG Table [pool-2-thread-1] eating now. order-id:98, table:1, waiter:waiter1
+2023-07-28 11:07:30,915 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:30,915 DEBUG Table [pool-2-thread-8] eating now. order-id:99, table:8, waiter:waiter4
+2023-07-28 11:07:30,915 DEBUG Chef [pool-2-thread-11] Got the order. order-id:102, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:30,915 DEBUG Table [pool-2-thread-6] placing the order. order-id:103, table:6, waiter:waiter3
+2023-07-28 11:07:30,915 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:103, table:6, waiter:waiter3
+2023-07-28 11:07:30,916 DEBUG Chef [pool-2-thread-10] Got the order. order-id:103, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:30,980 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:30,981 DEBUG Table [pool-2-thread-4] placing the order. order-id:104, table:4, waiter:waiter2
+2023-07-28 11:07:30,981 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:104, table:4, waiter:waiter2
+2023-07-28 11:07:30,981 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:100, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,981 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:30,981 DEBUG Table [pool-2-thread-3] food delivered. order-id:100, table:3, waiter:waiter2
+2023-07-28 11:07:30,981 DEBUG Chef [pool-2-thread-12] Got the order. order-id:104, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:30,981 DEBUG Table [pool-2-thread-3] eating now. order-id:100, table:3, waiter:waiter2
+2023-07-28 11:07:30,981 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:101, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:30,981 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:30,981 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:30,981 DEBUG Table [pool-2-thread-7] food delivered. order-id:101, table:7, waiter:waiter4
+2023-07-28 11:07:30,981 DEBUG Table [pool-2-thread-5] placing the order. order-id:105, table:5, waiter:waiter3
+2023-07-28 11:07:30,982 DEBUG Table [pool-2-thread-7] eating now. order-id:101, table:7, waiter:waiter4
+2023-07-28 11:07:30,982 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:105, table:5, waiter:waiter3
+2023-07-28 11:07:30,982 DEBUG Chef [pool-2-thread-9] Got the order. order-id:105, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,016 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:31,016 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:31,016 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:102, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,016 DEBUG Table [pool-2-thread-8] placing the order. order-id:106, table:8, waiter:waiter4
+2023-07-28 11:07:31,016 DEBUG Table [pool-2-thread-1] placing the order. order-id:107, table:1, waiter:waiter1
+2023-07-28 11:07:31,016 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:103, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,016 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:31,016 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:31,016 DEBUG Chef [pool-2-thread-11] Got the order. order-id:106, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,016 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:106, table:8, waiter:waiter4
+2023-07-28 11:07:31,016 DEBUG Table [pool-2-thread-2] food delivered. order-id:102, table:2, waiter:waiter1
+2023-07-28 11:07:31,016 DEBUG Table [pool-2-thread-6] food delivered. order-id:103, table:6, waiter:waiter3
+2023-07-28 11:07:31,016 DEBUG Chef [pool-2-thread-10] Got the order. order-id:107, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,016 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:107, table:1, waiter:waiter1
+2023-07-28 11:07:31,016 DEBUG Table [pool-2-thread-6] eating now. order-id:103, table:6, waiter:waiter3
+2023-07-28 11:07:31,016 DEBUG Table [pool-2-thread-2] eating now. order-id:102, table:2, waiter:waiter1
+2023-07-28 11:07:31,081 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:31,081 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:104, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,081 DEBUG Table [pool-2-thread-3] placing the order. order-id:108, table:3, waiter:waiter2
+2023-07-28 11:07:31,081 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:31,081 DEBUG Table [pool-2-thread-4] food delivered. order-id:104, table:4, waiter:waiter2
+2023-07-28 11:07:31,081 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:108, table:3, waiter:waiter2
+2023-07-28 11:07:31,081 DEBUG Table [pool-2-thread-4] eating now. order-id:104, table:4, waiter:waiter2
+2023-07-28 11:07:31,081 DEBUG Chef [pool-2-thread-12] Got the order. order-id:108, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,082 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:31,082 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:105, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,082 DEBUG Table [pool-2-thread-7] placing the order. order-id:109, table:7, waiter:waiter4
+2023-07-28 11:07:31,082 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:31,082 DEBUG Table [pool-2-thread-5] food delivered. order-id:105, table:5, waiter:waiter3
+2023-07-28 11:07:31,082 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:109, table:7, waiter:waiter4
+2023-07-28 11:07:31,082 DEBUG Chef [pool-2-thread-9] Got the order. order-id:109, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,082 DEBUG Table [pool-2-thread-5] eating now. order-id:105, table:5, waiter:waiter3
+2023-07-28 11:07:31,116 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:106, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,116 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:107, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,116 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:31,116 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:31,116 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:31,116 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:31,116 DEBUG Table [pool-2-thread-8] food delivered. order-id:106, table:8, waiter:waiter4
+2023-07-28 11:07:31,116 DEBUG Table [pool-2-thread-6] placing the order. order-id:110, table:6, waiter:waiter3
+2023-07-28 11:07:31,116 DEBUG Table [pool-2-thread-1] food delivered. order-id:107, table:1, waiter:waiter1
+2023-07-28 11:07:31,116 DEBUG Table [pool-2-thread-2] placing the order. order-id:111, table:2, waiter:waiter1
+2023-07-28 11:07:31,116 DEBUG Table [pool-2-thread-8] eating now. order-id:106, table:8, waiter:waiter4
+2023-07-28 11:07:31,116 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:111, table:2, waiter:waiter1
+2023-07-28 11:07:31,116 DEBUG Chef [pool-2-thread-11] Got the order. order-id:110, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,116 DEBUG Chef [pool-2-thread-10] Got the order. order-id:111, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,116 DEBUG Table [pool-2-thread-1] eating now. order-id:107, table:1, waiter:waiter1
+2023-07-28 11:07:31,116 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:110, table:6, waiter:waiter3
+2023-07-28 11:07:31,182 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:108, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,182 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:31,182 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:31,182 DEBUG Table [pool-2-thread-4] placing the order. order-id:112, table:4, waiter:waiter2
+2023-07-28 11:07:31,182 DEBUG Table [pool-2-thread-3] food delivered. order-id:108, table:3, waiter:waiter2
+2023-07-28 11:07:31,182 DEBUG Table [pool-2-thread-3] eating now. order-id:108, table:3, waiter:waiter2
+2023-07-28 11:07:31,182 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:112, table:4, waiter:waiter2
+2023-07-28 11:07:31,182 DEBUG Chef [pool-2-thread-12] Got the order. order-id:112, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,182 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:109, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,182 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:31,182 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:31,182 DEBUG Table [pool-2-thread-7] food delivered. order-id:109, table:7, waiter:waiter4
+2023-07-28 11:07:31,182 DEBUG Table [pool-2-thread-5] placing the order. order-id:113, table:5, waiter:waiter3
+2023-07-28 11:07:31,182 DEBUG Table [pool-2-thread-7] eating now. order-id:109, table:7, waiter:waiter4
+2023-07-28 11:07:31,182 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:113, table:5, waiter:waiter3
+2023-07-28 11:07:31,182 DEBUG Chef [pool-2-thread-9] Got the order. order-id:113, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,217 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:31,217 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:31,217 DEBUG Table [pool-2-thread-8] placing the order. order-id:114, table:8, waiter:waiter4
+2023-07-28 11:07:31,217 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:110, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,217 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:111, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,219 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:31,219 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:114, table:8, waiter:waiter4
+2023-07-28 11:07:31,219 DEBUG Chef [pool-2-thread-10] Got the order. order-id:114, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,219 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:31,219 DEBUG Table [pool-2-thread-6] food delivered. order-id:110, table:6, waiter:waiter3
+2023-07-28 11:07:31,219 DEBUG Table [pool-2-thread-6] eating now. order-id:110, table:6, waiter:waiter3
+2023-07-28 11:07:31,219 DEBUG Table [pool-2-thread-2] food delivered. order-id:111, table:2, waiter:waiter1
+2023-07-28 11:07:31,219 DEBUG Table [pool-2-thread-2] eating now. order-id:111, table:2, waiter:waiter1
+2023-07-28 11:07:31,217 DEBUG Table [pool-2-thread-1] placing the order. order-id:115, table:1, waiter:waiter1
+2023-07-28 11:07:31,219 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:115, table:1, waiter:waiter1
+2023-07-28 11:07:31,219 DEBUG Chef [pool-2-thread-11] Got the order. order-id:115, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,282 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:112, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,282 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:113, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,282 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:31,282 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:31,282 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:31,282 DEBUG Table [pool-2-thread-7] placing the order. order-id:116, table:7, waiter:waiter4
+2023-07-28 11:07:31,282 DEBUG Table [pool-2-thread-5] food delivered. order-id:113, table:5, waiter:waiter3
+2023-07-28 11:07:31,283 DEBUG Table [pool-2-thread-5] eating now. order-id:113, table:5, waiter:waiter3
+2023-07-28 11:07:31,282 DEBUG Table [pool-2-thread-4] food delivered. order-id:112, table:4, waiter:waiter2
+2023-07-28 11:07:31,282 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:31,283 DEBUG Table [pool-2-thread-4] eating now. order-id:112, table:4, waiter:waiter2
+2023-07-28 11:07:31,283 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:116, table:7, waiter:waiter4
+2023-07-28 11:07:31,283 DEBUG Table [pool-2-thread-3] placing the order. order-id:117, table:3, waiter:waiter2
+2023-07-28 11:07:31,283 DEBUG Chef [pool-2-thread-9] Got the order. order-id:116, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,283 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:117, table:3, waiter:waiter2
+2023-07-28 11:07:31,283 DEBUG Chef [pool-2-thread-12] Got the order. order-id:117, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,319 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:114, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,319 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:31,319 DEBUG Table [pool-2-thread-8] food delivered. order-id:114, table:8, waiter:waiter4
+2023-07-28 11:07:31,319 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:31,319 DEBUG Table [pool-2-thread-8] eating now. order-id:114, table:8, waiter:waiter4
+2023-07-28 11:07:31,319 DEBUG Table [pool-2-thread-6] placing the order. order-id:118, table:6, waiter:waiter3
+2023-07-28 11:07:31,319 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:31,319 DEBUG Table [pool-2-thread-2] placing the order. order-id:119, table:2, waiter:waiter1
+2023-07-28 11:07:31,319 DEBUG Chef [pool-2-thread-10] Got the order. order-id:118, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,319 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:118, table:6, waiter:waiter3
+2023-07-28 11:07:31,319 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:119, table:2, waiter:waiter1
+2023-07-28 11:07:31,320 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:115, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,320 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:31,320 DEBUG Table [pool-2-thread-1] food delivered. order-id:115, table:1, waiter:waiter1
+2023-07-28 11:07:31,320 DEBUG Chef [pool-2-thread-11] Got the order. order-id:119, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,320 DEBUG Table [pool-2-thread-1] eating now. order-id:115, table:1, waiter:waiter1
+2023-07-28 11:07:31,383 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:31,383 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:31,383 DEBUG Table [pool-2-thread-5] placing the order. order-id:120, table:5, waiter:waiter3
+2023-07-28 11:07:31,383 DEBUG Table [pool-2-thread-4] placing the order. order-id:121, table:4, waiter:waiter2
+2023-07-28 11:07:31,383 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:120, table:5, waiter:waiter3
+2023-07-28 11:07:31,383 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:121, table:4, waiter:waiter2
+2023-07-28 11:07:31,383 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:116, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,383 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:31,383 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:117, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,383 DEBUG Chef [pool-2-thread-9] Got the order. order-id:120, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,383 DEBUG Table [pool-2-thread-7] food delivered. order-id:116, table:7, waiter:waiter4
+2023-07-28 11:07:31,383 DEBUG Table [pool-2-thread-3] food delivered. order-id:117, table:3, waiter:waiter2
+2023-07-28 11:07:31,383 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:31,383 DEBUG Table [pool-2-thread-7] eating now. order-id:116, table:7, waiter:waiter4
+2023-07-28 11:07:31,383 DEBUG Table [pool-2-thread-3] eating now. order-id:117, table:3, waiter:waiter2
+2023-07-28 11:07:31,383 DEBUG Chef [pool-2-thread-12] Got the order. order-id:121, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,419 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:31,420 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:118, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,420 DEBUG Table [pool-2-thread-8] placing the order. order-id:122, table:8, waiter:waiter4
+2023-07-28 11:07:31,420 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:31,420 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:122, table:8, waiter:waiter4
+2023-07-28 11:07:31,420 DEBUG Chef [pool-2-thread-10] Got the order. order-id:122, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,420 DEBUG Table [pool-2-thread-6] food delivered. order-id:118, table:6, waiter:waiter3
+2023-07-28 11:07:31,420 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:119, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,420 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:31,420 DEBUG Table [pool-2-thread-6] eating now. order-id:118, table:6, waiter:waiter3
+2023-07-28 11:07:31,420 DEBUG Table [pool-2-thread-1] placing the order. order-id:123, table:1, waiter:waiter1
+2023-07-28 11:07:31,420 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:31,420 DEBUG Table [pool-2-thread-2] food delivered. order-id:119, table:2, waiter:waiter1
+2023-07-28 11:07:31,420 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:123, table:1, waiter:waiter1
+2023-07-28 11:07:31,420 DEBUG Chef [pool-2-thread-11] Got the order. order-id:123, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,420 DEBUG Table [pool-2-thread-2] eating now. order-id:119, table:2, waiter:waiter1
+2023-07-28 11:07:31,483 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:120, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,484 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:31,483 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:31,484 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:121, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,484 DEBUG Table [pool-2-thread-7] placing the order. order-id:124, table:7, waiter:waiter4
+2023-07-28 11:07:31,484 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:31,484 DEBUG Table [pool-2-thread-4] food delivered. order-id:121, table:4, waiter:waiter2
+2023-07-28 11:07:31,484 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:124, table:7, waiter:waiter4
+2023-07-28 11:07:31,484 DEBUG Table [pool-2-thread-4] eating now. order-id:121, table:4, waiter:waiter2
+2023-07-28 11:07:31,484 DEBUG Chef [pool-2-thread-9] Got the order. order-id:124, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,483 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:31,484 DEBUG Table [pool-2-thread-5] food delivered. order-id:120, table:5, waiter:waiter3
+2023-07-28 11:07:31,485 DEBUG Table [pool-2-thread-5] eating now. order-id:120, table:5, waiter:waiter3
+2023-07-28 11:07:31,485 DEBUG Table [pool-2-thread-3] placing the order. order-id:125, table:3, waiter:waiter2
+2023-07-28 11:07:31,485 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:125, table:3, waiter:waiter2
+2023-07-28 11:07:31,485 DEBUG Chef [pool-2-thread-12] Got the order. order-id:125, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,520 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:122, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,520 DEBUG Table [pool-2-thread-8] food delivered. order-id:122, table:8, waiter:waiter4
+2023-07-28 11:07:31,520 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:31,520 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:31,520 DEBUG Table [pool-2-thread-6] placing the order. order-id:126, table:6, waiter:waiter3
+2023-07-28 11:07:31,520 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:126, table:6, waiter:waiter3
+2023-07-28 11:07:31,520 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:123, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,520 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:31,521 DEBUG Chef [pool-2-thread-11] Got the order. order-id:126, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,520 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:31,520 DEBUG Table [pool-2-thread-1] food delivered. order-id:123, table:1, waiter:waiter1
+2023-07-28 11:07:31,520 DEBUG Table [pool-2-thread-8] eating now. order-id:122, table:8, waiter:waiter4
+2023-07-28 11:07:31,520 DEBUG Table [pool-2-thread-2] placing the order. order-id:127, table:2, waiter:waiter1
+2023-07-28 11:07:31,521 DEBUG Table [pool-2-thread-1] eating now. order-id:123, table:1, waiter:waiter1
+2023-07-28 11:07:31,521 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:127, table:2, waiter:waiter1
+2023-07-28 11:07:31,521 DEBUG Chef [pool-2-thread-10] Got the order. order-id:127, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,584 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:31,584 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:124, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,584 DEBUG Table [pool-2-thread-4] placing the order. order-id:128, table:4, waiter:waiter2
+2023-07-28 11:07:31,584 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:31,584 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:128, table:4, waiter:waiter2
+2023-07-28 11:07:31,584 DEBUG Table [pool-2-thread-7] food delivered. order-id:124, table:7, waiter:waiter4
+2023-07-28 11:07:31,584 DEBUG Chef [pool-2-thread-9] Got the order. order-id:128, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,584 DEBUG Table [pool-2-thread-7] eating now. order-id:124, table:7, waiter:waiter4
+2023-07-28 11:07:31,585 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:31,585 DEBUG Table [pool-2-thread-5] placing the order. order-id:129, table:5, waiter:waiter3
+2023-07-28 11:07:31,585 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:129, table:5, waiter:waiter3
+2023-07-28 11:07:31,585 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:125, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,585 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:31,585 DEBUG Table [pool-2-thread-3] food delivered. order-id:125, table:3, waiter:waiter2
+2023-07-28 11:07:31,585 DEBUG Chef [pool-2-thread-12] Got the order. order-id:129, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,585 DEBUG Table [pool-2-thread-3] eating now. order-id:125, table:3, waiter:waiter2
+2023-07-28 11:07:31,621 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:126, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,621 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:31,621 DEBUG Table [pool-2-thread-6] food delivered. order-id:126, table:6, waiter:waiter3
+2023-07-28 11:07:31,621 DEBUG Table [pool-2-thread-6] eating now. order-id:126, table:6, waiter:waiter3
+2023-07-28 11:07:31,622 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:31,622 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:31,622 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:127, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,622 DEBUG Table [pool-2-thread-1] placing the order. order-id:131, table:1, waiter:waiter1
+2023-07-28 11:07:31,622 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:31,622 DEBUG Table [pool-2-thread-2] food delivered. order-id:127, table:2, waiter:waiter1
+2023-07-28 11:07:31,622 DEBUG Chef [pool-2-thread-10] Got the order. order-id:131, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,622 DEBUG Table [pool-2-thread-8] placing the order. order-id:130, table:8, waiter:waiter4
+2023-07-28 11:07:31,622 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:131, table:1, waiter:waiter1
+2023-07-28 11:07:31,622 DEBUG Table [pool-2-thread-2] eating now. order-id:127, table:2, waiter:waiter1
+2023-07-28 11:07:31,622 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:130, table:8, waiter:waiter4
+2023-07-28 11:07:31,622 DEBUG Chef [pool-2-thread-11] Got the order. order-id:130, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,685 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:31,685 DEBUG Table [pool-2-thread-7] placing the order. order-id:132, table:7, waiter:waiter4
+2023-07-28 11:07:31,685 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:128, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,685 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:132, table:7, waiter:waiter4
+2023-07-28 11:07:31,685 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:31,685 DEBUG Chef [pool-2-thread-9] Got the order. order-id:132, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,685 DEBUG Table [pool-2-thread-4] food delivered. order-id:128, table:4, waiter:waiter2
+2023-07-28 11:07:31,685 DEBUG Table [pool-2-thread-4] eating now. order-id:128, table:4, waiter:waiter2
+2023-07-28 11:07:31,685 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:31,685 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:129, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,686 DEBUG Table [pool-2-thread-3] placing the order. order-id:133, table:3, waiter:waiter2
+2023-07-28 11:07:31,686 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:133, table:3, waiter:waiter2
+2023-07-28 11:07:31,686 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:31,686 DEBUG Chef [pool-2-thread-12] Got the order. order-id:133, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,686 DEBUG Table [pool-2-thread-5] food delivered. order-id:129, table:5, waiter:waiter3
+2023-07-28 11:07:31,686 DEBUG Table [pool-2-thread-5] eating now. order-id:129, table:5, waiter:waiter3
+2023-07-28 11:07:31,721 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:31,721 DEBUG Table [pool-2-thread-6] placing the order. order-id:134, table:6, waiter:waiter3
+2023-07-28 11:07:31,722 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:134, table:6, waiter:waiter3
+2023-07-28 11:07:31,722 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:131, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,722 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:31,722 DEBUG Table [pool-2-thread-1] food delivered. order-id:131, table:1, waiter:waiter1
+2023-07-28 11:07:31,722 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:130, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,722 DEBUG Table [pool-2-thread-1] eating now. order-id:131, table:1, waiter:waiter1
+2023-07-28 11:07:31,722 DEBUG Table [pool-2-thread-2] placing the order. order-id:135, table:2, waiter:waiter1
+2023-07-28 11:07:31,722 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:31,722 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:31,722 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:135, table:2, waiter:waiter1
+2023-07-28 11:07:31,722 DEBUG Table [pool-2-thread-8] food delivered. order-id:130, table:8, waiter:waiter4
+2023-07-28 11:07:31,722 DEBUG Chef [pool-2-thread-11] Got the order. order-id:135, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,722 DEBUG Chef [pool-2-thread-10] Got the order. order-id:134, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,722 DEBUG Table [pool-2-thread-8] eating now. order-id:130, table:8, waiter:waiter4
+2023-07-28 11:07:31,785 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:132, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,785 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:31,785 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:31,785 DEBUG Table [pool-2-thread-7] food delivered. order-id:132, table:7, waiter:waiter4
+2023-07-28 11:07:31,785 DEBUG Table [pool-2-thread-4] placing the order. order-id:136, table:4, waiter:waiter2
+2023-07-28 11:07:31,785 DEBUG Table [pool-2-thread-7] eating now. order-id:132, table:7, waiter:waiter4
+2023-07-28 11:07:31,785 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:136, table:4, waiter:waiter2
+2023-07-28 11:07:31,785 DEBUG Chef [pool-2-thread-9] Got the order. order-id:136, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,786 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:133, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,786 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:31,786 DEBUG Table [pool-2-thread-3] food delivered. order-id:133, table:3, waiter:waiter2
+2023-07-28 11:07:31,786 DEBUG Table [pool-2-thread-3] eating now. order-id:133, table:3, waiter:waiter2
+2023-07-28 11:07:31,786 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:31,786 DEBUG Table [pool-2-thread-5] placing the order. order-id:137, table:5, waiter:waiter3
+2023-07-28 11:07:31,786 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:137, table:5, waiter:waiter3
+2023-07-28 11:07:31,786 DEBUG Chef [pool-2-thread-12] Got the order. order-id:137, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,822 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:31,822 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:134, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,822 DEBUG Table [pool-2-thread-1] placing the order. order-id:138, table:1, waiter:waiter1
+2023-07-28 11:07:31,822 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:135, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,823 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:31,823 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:138, table:1, waiter:waiter1
+2023-07-28 11:07:31,823 DEBUG Chef [pool-2-thread-10] Got the order. order-id:138, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,823 DEBUG Table [pool-2-thread-2] food delivered. order-id:135, table:2, waiter:waiter1
+2023-07-28 11:07:31,823 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:31,823 DEBUG Table [pool-2-thread-6] food delivered. order-id:134, table:6, waiter:waiter3
+2023-07-28 11:07:31,823 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:31,823 DEBUG Table [pool-2-thread-6] eating now. order-id:134, table:6, waiter:waiter3
+2023-07-28 11:07:31,823 DEBUG Table [pool-2-thread-2] eating now. order-id:135, table:2, waiter:waiter1
+2023-07-28 11:07:31,823 DEBUG Table [pool-2-thread-8] placing the order. order-id:139, table:8, waiter:waiter4
+2023-07-28 11:07:31,823 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:139, table:8, waiter:waiter4
+2023-07-28 11:07:31,823 DEBUG Chef [pool-2-thread-11] Got the order. order-id:139, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,886 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:31,886 DEBUG Table [pool-2-thread-7] placing the order. order-id:140, table:7, waiter:waiter4
+2023-07-28 11:07:31,886 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:140, table:7, waiter:waiter4
+2023-07-28 11:07:31,886 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:136, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,886 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:31,886 DEBUG Table [pool-2-thread-4] food delivered. order-id:136, table:4, waiter:waiter2
+2023-07-28 11:07:31,886 DEBUG Table [pool-2-thread-3] placing the order. order-id:141, table:3, waiter:waiter2
+2023-07-28 11:07:31,886 DEBUG Table [pool-2-thread-4] eating now. order-id:136, table:4, waiter:waiter2
+2023-07-28 11:07:31,886 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:31,886 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:141, table:3, waiter:waiter2
+2023-07-28 11:07:31,886 DEBUG Chef [pool-2-thread-9] Got the order. order-id:140, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,886 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:137, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,887 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:31,887 DEBUG Table [pool-2-thread-5] food delivered. order-id:137, table:5, waiter:waiter3
+2023-07-28 11:07:31,887 DEBUG Chef [pool-2-thread-12] Got the order. order-id:141, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,887 DEBUG Table [pool-2-thread-5] eating now. order-id:137, table:5, waiter:waiter3
+2023-07-28 11:07:31,923 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:138, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,923 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:31,923 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:31,923 DEBUG Table [pool-2-thread-1] food delivered. order-id:138, table:1, waiter:waiter1
+2023-07-28 11:07:31,923 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:31,923 DEBUG Table [pool-2-thread-6] placing the order. order-id:142, table:6, waiter:waiter3
+2023-07-28 11:07:31,923 DEBUG Table [pool-2-thread-1] eating now. order-id:138, table:1, waiter:waiter1
+2023-07-28 11:07:31,923 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:139, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,923 DEBUG Table [pool-2-thread-2] placing the order. order-id:143, table:2, waiter:waiter1
+2023-07-28 11:07:31,923 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:142, table:6, waiter:waiter3
+2023-07-28 11:07:31,923 DEBUG Chef [pool-2-thread-10] Got the order. order-id:142, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:31,923 DEBUG Table [pool-2-thread-8] food delivered. order-id:139, table:8, waiter:waiter4
+2023-07-28 11:07:31,923 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:31,923 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:143, table:2, waiter:waiter1
+2023-07-28 11:07:31,923 DEBUG Table [pool-2-thread-8] eating now. order-id:139, table:8, waiter:waiter4
+2023-07-28 11:07:31,923 DEBUG Chef [pool-2-thread-11] Got the order. order-id:143, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:31,986 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:31,987 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:140, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,987 DEBUG Table [pool-2-thread-4] placing the order. order-id:144, table:4, waiter:waiter2
+2023-07-28 11:07:31,987 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:31,987 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:144, table:4, waiter:waiter2
+2023-07-28 11:07:31,987 DEBUG Table [pool-2-thread-7] food delivered. order-id:140, table:7, waiter:waiter4
+2023-07-28 11:07:31,987 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:141, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:31,987 DEBUG Chef [pool-2-thread-9] Got the order. order-id:144, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:31,987 DEBUG Table [pool-2-thread-7] eating now. order-id:140, table:7, waiter:waiter4
+2023-07-28 11:07:31,987 DEBUG Table [pool-2-thread-3] food delivered. order-id:141, table:3, waiter:waiter2
+2023-07-28 11:07:31,987 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:31,987 DEBUG Table [pool-2-thread-3] eating now. order-id:141, table:3, waiter:waiter2
+2023-07-28 11:07:31,987 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:31,987 DEBUG Table [pool-2-thread-5] placing the order. order-id:145, table:5, waiter:waiter3
+2023-07-28 11:07:31,987 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:145, table:5, waiter:waiter3
+2023-07-28 11:07:31,987 DEBUG Chef [pool-2-thread-12] Got the order. order-id:145, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,023 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:32,023 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:142, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,023 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:32,023 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:32,023 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:143, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,023 DEBUG Table [pool-2-thread-8] placing the order. order-id:147, table:8, waiter:waiter4
+2023-07-28 11:07:32,023 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:32,023 DEBUG Table [pool-2-thread-6] food delivered. order-id:142, table:6, waiter:waiter3
+2023-07-28 11:07:32,024 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:147, table:8, waiter:waiter4
+2023-07-28 11:07:32,024 DEBUG Chef [pool-2-thread-11] Got the order. order-id:147, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,024 DEBUG Table [pool-2-thread-6] eating now. order-id:142, table:6, waiter:waiter3
+2023-07-28 11:07:32,024 DEBUG Table [pool-2-thread-2] food delivered. order-id:143, table:2, waiter:waiter1
+2023-07-28 11:07:32,024 DEBUG Table [pool-2-thread-2] eating now. order-id:143, table:2, waiter:waiter1
+2023-07-28 11:07:32,023 DEBUG Table [pool-2-thread-1] placing the order. order-id:146, table:1, waiter:waiter1
+2023-07-28 11:07:32,024 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:146, table:1, waiter:waiter1
+2023-07-28 11:07:32,024 DEBUG Chef [pool-2-thread-10] Got the order. order-id:146, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,087 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:32,087 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:144, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,087 DEBUG Table [pool-2-thread-7] placing the order. order-id:148, table:7, waiter:waiter4
+2023-07-28 11:07:32,087 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:32,087 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:148, table:7, waiter:waiter4
+2023-07-28 11:07:32,087 DEBUG Chef [pool-2-thread-9] Got the order. order-id:148, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,087 DEBUG Table [pool-2-thread-4] food delivered. order-id:144, table:4, waiter:waiter2
+2023-07-28 11:07:32,087 DEBUG Table [pool-2-thread-4] eating now. order-id:144, table:4, waiter:waiter2
+2023-07-28 11:07:32,087 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:145, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,088 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:32,088 DEBUG Table [pool-2-thread-5] food delivered. order-id:145, table:5, waiter:waiter3
+2023-07-28 11:07:32,088 DEBUG Table [pool-2-thread-5] eating now. order-id:145, table:5, waiter:waiter3
+2023-07-28 11:07:32,087 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:32,088 DEBUG Table [pool-2-thread-3] placing the order. order-id:149, table:3, waiter:waiter2
+2023-07-28 11:07:32,088 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:149, table:3, waiter:waiter2
+2023-07-28 11:07:32,088 DEBUG Chef [pool-2-thread-12] Got the order. order-id:149, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,124 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:147, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,124 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:32,124 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:32,124 DEBUG Table [pool-2-thread-2] placing the order. order-id:150, table:2, waiter:waiter1
+2023-07-28 11:07:32,124 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:150, table:2, waiter:waiter1
+2023-07-28 11:07:32,124 DEBUG Chef [pool-2-thread-11] Got the order. order-id:150, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,124 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:32,124 DEBUG Table [pool-2-thread-8] food delivered. order-id:147, table:8, waiter:waiter4
+2023-07-28 11:07:32,124 DEBUG Table [pool-2-thread-6] placing the order. order-id:151, table:6, waiter:waiter3
+2023-07-28 11:07:32,124 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:146, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,124 DEBUG Table [pool-2-thread-8] eating now. order-id:147, table:8, waiter:waiter4
+2023-07-28 11:07:32,124 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:32,124 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:151, table:6, waiter:waiter3
+2023-07-28 11:07:32,124 DEBUG Chef [pool-2-thread-10] Got the order. order-id:151, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,124 DEBUG Table [pool-2-thread-1] food delivered. order-id:146, table:1, waiter:waiter1
+2023-07-28 11:07:32,124 DEBUG Table [pool-2-thread-1] eating now. order-id:146, table:1, waiter:waiter1
+2023-07-28 11:07:32,187 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:148, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,188 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:32,188 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:32,188 DEBUG Table [pool-2-thread-7] food delivered. order-id:148, table:7, waiter:waiter4
+2023-07-28 11:07:32,188 DEBUG Table [pool-2-thread-4] placing the order. order-id:152, table:4, waiter:waiter2
+2023-07-28 11:07:32,188 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:32,188 DEBUG Table [pool-2-thread-7] eating now. order-id:148, table:7, waiter:waiter4
+2023-07-28 11:07:32,188 DEBUG Table [pool-2-thread-5] placing the order. order-id:153, table:5, waiter:waiter3
+2023-07-28 11:07:32,188 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:152, table:4, waiter:waiter2
+2023-07-28 11:07:32,188 DEBUG Chef [pool-2-thread-9] Got the order. order-id:152, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,188 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:153, table:5, waiter:waiter3
+2023-07-28 11:07:32,188 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:149, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,188 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:32,188 DEBUG Table [pool-2-thread-3] food delivered. order-id:149, table:3, waiter:waiter2
+2023-07-28 11:07:32,188 DEBUG Chef [pool-2-thread-12] Got the order. order-id:153, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,188 DEBUG Table [pool-2-thread-3] eating now. order-id:149, table:3, waiter:waiter2
+2023-07-28 11:07:32,224 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:150, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,224 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:151, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,225 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:32,225 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:32,225 DEBUG Table [pool-2-thread-2] food delivered. order-id:150, table:2, waiter:waiter1
+2023-07-28 11:07:32,225 DEBUG Table [pool-2-thread-2] eating now. order-id:150, table:2, waiter:waiter1
+2023-07-28 11:07:32,224 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:32,225 DEBUG Table [pool-2-thread-6] food delivered. order-id:151, table:6, waiter:waiter3
+2023-07-28 11:07:32,224 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:32,225 DEBUG Table [pool-2-thread-8] placing the order. order-id:154, table:8, waiter:waiter4
+2023-07-28 11:07:32,225 DEBUG Table [pool-2-thread-6] eating now. order-id:151, table:6, waiter:waiter3
+2023-07-28 11:07:32,225 DEBUG Table [pool-2-thread-1] placing the order. order-id:155, table:1, waiter:waiter1
+2023-07-28 11:07:32,225 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:154, table:8, waiter:waiter4
+2023-07-28 11:07:32,225 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:155, table:1, waiter:waiter1
+2023-07-28 11:07:32,225 DEBUG Chef [pool-2-thread-10] Got the order. order-id:154, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,225 DEBUG Chef [pool-2-thread-11] Got the order. order-id:155, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,288 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:32,288 DEBUG Table [pool-2-thread-7] placing the order. order-id:156, table:7, waiter:waiter4
+2023-07-28 11:07:32,288 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:156, table:7, waiter:waiter4
+2023-07-28 11:07:32,288 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:152, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,288 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:153, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,288 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:32,288 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:32,288 DEBUG Chef [pool-2-thread-9] Got the order. order-id:156, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,288 DEBUG Table [pool-2-thread-5] food delivered. order-id:153, table:5, waiter:waiter3
+2023-07-28 11:07:32,288 DEBUG Table [pool-2-thread-3] placing the order. order-id:157, table:3, waiter:waiter2
+2023-07-28 11:07:32,288 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:32,288 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:157, table:3, waiter:waiter2
+2023-07-28 11:07:32,288 DEBUG Table [pool-2-thread-5] eating now. order-id:153, table:5, waiter:waiter3
+2023-07-28 11:07:32,288 DEBUG Table [pool-2-thread-4] food delivered. order-id:152, table:4, waiter:waiter2
+2023-07-28 11:07:32,288 DEBUG Chef [pool-2-thread-12] Got the order. order-id:157, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,289 DEBUG Table [pool-2-thread-4] eating now. order-id:152, table:4, waiter:waiter2
+2023-07-28 11:07:32,325 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:32,325 DEBUG Table [pool-2-thread-2] placing the order. order-id:158, table:2, waiter:waiter1
+2023-07-28 11:07:32,325 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:32,325 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:158, table:2, waiter:waiter1
+2023-07-28 11:07:32,325 DEBUG Table [pool-2-thread-6] placing the order. order-id:159, table:6, waiter:waiter3
+2023-07-28 11:07:32,325 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:159, table:6, waiter:waiter3
+2023-07-28 11:07:32,325 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:154, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,325 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:155, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,325 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:32,325 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:32,325 DEBUG Table [pool-2-thread-8] food delivered. order-id:154, table:8, waiter:waiter4
+2023-07-28 11:07:32,325 DEBUG Chef [pool-2-thread-11] Got the order. order-id:159, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,325 DEBUG Table [pool-2-thread-1] food delivered. order-id:155, table:1, waiter:waiter1
+2023-07-28 11:07:32,325 DEBUG Chef [pool-2-thread-10] Got the order. order-id:158, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,325 DEBUG Table [pool-2-thread-8] eating now. order-id:154, table:8, waiter:waiter4
+2023-07-28 11:07:32,325 DEBUG Table [pool-2-thread-1] eating now. order-id:155, table:1, waiter:waiter1
+2023-07-28 11:07:32,388 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:156, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,389 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:32,389 DEBUG Table [pool-2-thread-7] food delivered. order-id:156, table:7, waiter:waiter4
+2023-07-28 11:07:32,389 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:32,389 DEBUG Table [pool-2-thread-7] eating now. order-id:156, table:7, waiter:waiter4
+2023-07-28 11:07:32,389 DEBUG Table [pool-2-thread-5] placing the order. order-id:160, table:5, waiter:waiter3
+2023-07-28 11:07:32,389 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:157, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,389 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:32,389 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:160, table:5, waiter:waiter3
+2023-07-28 11:07:32,389 DEBUG Table [pool-2-thread-4] placing the order. order-id:161, table:4, waiter:waiter2
+2023-07-28 11:07:32,389 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:32,389 DEBUG Table [pool-2-thread-3] food delivered. order-id:157, table:3, waiter:waiter2
+2023-07-28 11:07:32,389 DEBUG Chef [pool-2-thread-9] Got the order. order-id:160, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,389 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:161, table:4, waiter:waiter2
+2023-07-28 11:07:32,389 DEBUG Table [pool-2-thread-3] eating now. order-id:157, table:3, waiter:waiter2
+2023-07-28 11:07:32,389 DEBUG Chef [pool-2-thread-12] Got the order. order-id:161, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,426 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:158, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,426 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:32,426 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:159, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,426 DEBUG Table [pool-2-thread-1] placing the order. order-id:162, table:1, waiter:waiter1
+2023-07-28 11:07:32,426 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:32,426 DEBUG Table [pool-2-thread-6] food delivered. order-id:159, table:6, waiter:waiter3
+2023-07-28 11:07:32,426 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:162, table:1, waiter:waiter1
+2023-07-28 11:07:32,426 DEBUG Table [pool-2-thread-8] placing the order. order-id:163, table:8, waiter:waiter4
+2023-07-28 11:07:32,426 DEBUG Table [pool-2-thread-6] eating now. order-id:159, table:6, waiter:waiter3
+2023-07-28 11:07:32,426 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:163, table:8, waiter:waiter4
+2023-07-28 11:07:32,426 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:32,426 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:32,426 DEBUG Table [pool-2-thread-2] food delivered. order-id:158, table:2, waiter:waiter1
+2023-07-28 11:07:32,426 DEBUG Chef [pool-2-thread-10] Got the order. order-id:162, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,426 DEBUG Chef [pool-2-thread-11] Got the order. order-id:163, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,426 DEBUG Table [pool-2-thread-2] eating now. order-id:158, table:2, waiter:waiter1
+2023-07-28 11:07:32,489 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:32,489 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:160, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,489 DEBUG Table [pool-2-thread-7] placing the order. order-id:164, table:7, waiter:waiter4
+2023-07-28 11:07:32,489 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:32,489 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:164, table:7, waiter:waiter4
+2023-07-28 11:07:32,489 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:32,489 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:161, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,489 DEBUG Table [pool-2-thread-5] food delivered. order-id:160, table:5, waiter:waiter3
+2023-07-28 11:07:32,489 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:32,489 DEBUG Table [pool-2-thread-5] eating now. order-id:160, table:5, waiter:waiter3
+2023-07-28 11:07:32,489 DEBUG Table [pool-2-thread-4] food delivered. order-id:161, table:4, waiter:waiter2
+2023-07-28 11:07:32,489 DEBUG Chef [pool-2-thread-9] Got the order. order-id:164, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,489 DEBUG Table [pool-2-thread-3] placing the order. order-id:165, table:3, waiter:waiter2
+2023-07-28 11:07:32,489 DEBUG Table [pool-2-thread-4] eating now. order-id:161, table:4, waiter:waiter2
+2023-07-28 11:07:32,490 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:165, table:3, waiter:waiter2
+2023-07-28 11:07:32,490 DEBUG Chef [pool-2-thread-12] Got the order. order-id:165, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,526 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:32,526 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:163, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,526 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:32,526 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:162, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,526 DEBUG Table [pool-2-thread-6] placing the order. order-id:166, table:6, waiter:waiter3
+2023-07-28 11:07:32,527 DEBUG Table [pool-2-thread-2] placing the order. order-id:167, table:2, waiter:waiter1
+2023-07-28 11:07:32,527 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:32,526 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:32,527 DEBUG Table [pool-2-thread-8] food delivered. order-id:163, table:8, waiter:waiter4
+2023-07-28 11:07:32,527 DEBUG Table [pool-2-thread-1] food delivered. order-id:162, table:1, waiter:waiter1
+2023-07-28 11:07:32,527 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:167, table:2, waiter:waiter1
+2023-07-28 11:07:32,527 DEBUG Table [pool-2-thread-8] eating now. order-id:163, table:8, waiter:waiter4
+2023-07-28 11:07:32,527 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:166, table:6, waiter:waiter3
+2023-07-28 11:07:32,527 DEBUG Chef [pool-2-thread-10] Got the order. order-id:167, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,527 DEBUG Table [pool-2-thread-1] eating now. order-id:162, table:1, waiter:waiter1
+2023-07-28 11:07:32,527 DEBUG Chef [pool-2-thread-11] Got the order. order-id:166, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,590 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:32,590 DEBUG Table [pool-2-thread-5] placing the order. order-id:168, table:5, waiter:waiter3
+2023-07-28 11:07:32,590 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:168, table:5, waiter:waiter3
+2023-07-28 11:07:32,590 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:164, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,590 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:32,590 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:32,590 DEBUG Table [pool-2-thread-4] placing the order. order-id:169, table:4, waiter:waiter2
+2023-07-28 11:07:32,590 DEBUG Chef [pool-2-thread-9] Got the order. order-id:168, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,590 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:169, table:4, waiter:waiter2
+2023-07-28 11:07:32,590 DEBUG Table [pool-2-thread-7] food delivered. order-id:164, table:7, waiter:waiter4
+2023-07-28 11:07:32,590 DEBUG Table [pool-2-thread-7] eating now. order-id:164, table:7, waiter:waiter4
+2023-07-28 11:07:32,590 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:165, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,590 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:32,590 DEBUG Table [pool-2-thread-3] food delivered. order-id:165, table:3, waiter:waiter2
+2023-07-28 11:07:32,590 DEBUG Chef [pool-2-thread-12] Got the order. order-id:169, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,590 DEBUG Table [pool-2-thread-3] eating now. order-id:165, table:3, waiter:waiter2
+2023-07-28 11:07:32,627 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:167, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,627 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:32,627 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:32,627 DEBUG Table [pool-2-thread-8] placing the order. order-id:170, table:8, waiter:waiter4
+2023-07-28 11:07:32,627 DEBUG Table [pool-2-thread-2] food delivered. order-id:167, table:2, waiter:waiter1
+2023-07-28 11:07:32,627 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:170, table:8, waiter:waiter4
+2023-07-28 11:07:32,627 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:166, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,627 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:32,627 DEBUG Table [pool-2-thread-2] eating now. order-id:167, table:2, waiter:waiter1
+2023-07-28 11:07:32,627 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:32,627 DEBUG Chef [pool-2-thread-10] Got the order. order-id:170, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,627 DEBUG Table [pool-2-thread-1] placing the order. order-id:171, table:1, waiter:waiter1
+2023-07-28 11:07:32,627 DEBUG Table [pool-2-thread-6] food delivered. order-id:166, table:6, waiter:waiter3
+2023-07-28 11:07:32,627 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:171, table:1, waiter:waiter1
+2023-07-28 11:07:32,627 DEBUG Chef [pool-2-thread-11] Got the order. order-id:171, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,627 DEBUG Table [pool-2-thread-6] eating now. order-id:166, table:6, waiter:waiter3
+2023-07-28 11:07:32,690 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:168, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,690 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:32,690 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:32,690 DEBUG Table [pool-2-thread-7] placing the order. order-id:172, table:7, waiter:waiter4
+2023-07-28 11:07:32,690 DEBUG Table [pool-2-thread-5] food delivered. order-id:168, table:5, waiter:waiter3
+2023-07-28 11:07:32,691 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:169, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,691 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:32,691 DEBUG Table [pool-2-thread-4] food delivered. order-id:169, table:4, waiter:waiter2
+2023-07-28 11:07:32,691 DEBUG Table [pool-2-thread-5] eating now. order-id:168, table:5, waiter:waiter3
+2023-07-28 11:07:32,691 DEBUG Chef [pool-2-thread-9] Got the order. order-id:172, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,691 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:32,691 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:172, table:7, waiter:waiter4
+2023-07-28 11:07:32,691 DEBUG Table [pool-2-thread-3] placing the order. order-id:173, table:3, waiter:waiter2
+2023-07-28 11:07:32,691 DEBUG Table [pool-2-thread-4] eating now. order-id:169, table:4, waiter:waiter2
+2023-07-28 11:07:32,691 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:173, table:3, waiter:waiter2
+2023-07-28 11:07:32,691 DEBUG Chef [pool-2-thread-12] Got the order. order-id:173, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,727 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:170, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,727 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:32,728 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:171, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,728 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:32,728 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:32,728 DEBUG Table [pool-2-thread-2] placing the order. order-id:174, table:2, waiter:waiter1
+2023-07-28 11:07:32,728 DEBUG Table [pool-2-thread-8] food delivered. order-id:170, table:8, waiter:waiter4
+2023-07-28 11:07:32,728 DEBUG Table [pool-2-thread-1] food delivered. order-id:171, table:1, waiter:waiter1
+2023-07-28 11:07:32,728 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:32,728 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:174, table:2, waiter:waiter1
+2023-07-28 11:07:32,728 DEBUG Table [pool-2-thread-6] placing the order. order-id:175, table:6, waiter:waiter3
+2023-07-28 11:07:32,728 DEBUG Chef [pool-2-thread-11] Got the order. order-id:174, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,728 DEBUG Table [pool-2-thread-1] eating now. order-id:171, table:1, waiter:waiter1
+2023-07-28 11:07:32,728 DEBUG Table [pool-2-thread-8] eating now. order-id:170, table:8, waiter:waiter4
+2023-07-28 11:07:32,728 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:175, table:6, waiter:waiter3
+2023-07-28 11:07:32,728 DEBUG Chef [pool-2-thread-10] Got the order. order-id:175, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,791 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:32,791 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:32,791 DEBUG Table [pool-2-thread-4] placing the order. order-id:176, table:4, waiter:waiter2
+2023-07-28 11:07:32,791 DEBUG Table [pool-2-thread-5] placing the order. order-id:177, table:5, waiter:waiter3
+2023-07-28 11:07:32,791 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:172, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,791 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:173, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,791 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:177, table:5, waiter:waiter3
+2023-07-28 11:07:32,791 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:32,791 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:176, table:4, waiter:waiter2
+2023-07-28 11:07:32,791 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:32,791 DEBUG Table [pool-2-thread-3] food delivered. order-id:173, table:3, waiter:waiter2
+2023-07-28 11:07:32,791 DEBUG Chef [pool-2-thread-12] Got the order. order-id:177, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,791 DEBUG Chef [pool-2-thread-9] Got the order. order-id:176, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,792 DEBUG Table [pool-2-thread-3] eating now. order-id:173, table:3, waiter:waiter2
+2023-07-28 11:07:32,791 DEBUG Table [pool-2-thread-7] food delivered. order-id:172, table:7, waiter:waiter4
+2023-07-28 11:07:32,792 DEBUG Table [pool-2-thread-7] eating now. order-id:172, table:7, waiter:waiter4
+2023-07-28 11:07:32,828 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:32,828 DEBUG Table [pool-2-thread-1] placing the order. order-id:178, table:1, waiter:waiter1
+2023-07-28 11:07:32,828 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:32,829 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:178, table:1, waiter:waiter1
+2023-07-28 11:07:32,828 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:174, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,829 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:32,829 DEBUG Chef [pool-2-thread-11] Got the order. order-id:178, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,828 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:175, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,829 DEBUG Table [pool-2-thread-2] food delivered. order-id:174, table:2, waiter:waiter1
+2023-07-28 11:07:32,829 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:32,829 DEBUG Table [pool-2-thread-2] eating now. order-id:174, table:2, waiter:waiter1
+2023-07-28 11:07:32,829 DEBUG Table [pool-2-thread-6] food delivered. order-id:175, table:6, waiter:waiter3
+2023-07-28 11:07:32,829 DEBUG Table [pool-2-thread-6] eating now. order-id:175, table:6, waiter:waiter3
+2023-07-28 11:07:32,829 DEBUG Table [pool-2-thread-8] placing the order. order-id:179, table:8, waiter:waiter4
+2023-07-28 11:07:32,829 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:179, table:8, waiter:waiter4
+2023-07-28 11:07:32,829 DEBUG Chef [pool-2-thread-10] Got the order. order-id:179, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,892 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:176, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,892 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:32,892 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:32,892 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:32,892 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:177, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,892 DEBUG Table [pool-2-thread-7] placing the order. order-id:180, table:7, waiter:waiter4
+2023-07-28 11:07:32,892 DEBUG Table [pool-2-thread-4] food delivered. order-id:176, table:4, waiter:waiter2
+2023-07-28 11:07:32,892 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:32,893 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:180, table:7, waiter:waiter4
+2023-07-28 11:07:32,892 DEBUG Table [pool-2-thread-5] food delivered. order-id:177, table:5, waiter:waiter3
+2023-07-28 11:07:32,892 DEBUG Table [pool-2-thread-3] placing the order. order-id:181, table:3, waiter:waiter2
+2023-07-28 11:07:32,893 DEBUG Chef [pool-2-thread-12] Got the order. order-id:180, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,893 DEBUG Table [pool-2-thread-4] eating now. order-id:176, table:4, waiter:waiter2
+2023-07-28 11:07:32,893 DEBUG Chef [pool-2-thread-9] Got the order. order-id:181, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,893 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:181, table:3, waiter:waiter2
+2023-07-28 11:07:32,893 DEBUG Table [pool-2-thread-5] eating now. order-id:177, table:5, waiter:waiter3
+2023-07-28 11:07:32,929 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:178, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,929 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:32,929 DEBUG Table [pool-2-thread-1] food delivered. order-id:178, table:1, waiter:waiter1
+2023-07-28 11:07:32,929 DEBUG Table [pool-2-thread-1] eating now. order-id:178, table:1, waiter:waiter1
+2023-07-28 11:07:32,929 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:32,929 DEBUG Table [pool-2-thread-2] placing the order. order-id:182, table:2, waiter:waiter1
+2023-07-28 11:07:32,929 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:182, table:2, waiter:waiter1
+2023-07-28 11:07:32,929 DEBUG Chef [pool-2-thread-11] Got the order. order-id:182, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:32,929 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:32,929 DEBUG Table [pool-2-thread-6] placing the order. order-id:183, table:6, waiter:waiter3
+2023-07-28 11:07:32,929 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:183, table:6, waiter:waiter3
+2023-07-28 11:07:32,930 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:179, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,930 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:32,930 DEBUG Table [pool-2-thread-8] food delivered. order-id:179, table:8, waiter:waiter4
+2023-07-28 11:07:32,930 DEBUG Chef [pool-2-thread-10] Got the order. order-id:183, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:32,930 DEBUG Table [pool-2-thread-8] eating now. order-id:179, table:8, waiter:waiter4
+2023-07-28 11:07:32,993 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:180, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,993 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:32,993 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:32,993 DEBUG Table [pool-2-thread-4] placing the order. order-id:184, table:4, waiter:waiter2
+2023-07-28 11:07:32,993 DEBUG Table [pool-2-thread-7] food delivered. order-id:180, table:7, waiter:waiter4
+2023-07-28 11:07:32,993 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:32,993 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:181, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,993 DEBUG Table [pool-2-thread-7] eating now. order-id:180, table:7, waiter:waiter4
+2023-07-28 11:07:32,993 DEBUG Table [pool-2-thread-5] placing the order. order-id:185, table:5, waiter:waiter3
+2023-07-28 11:07:32,993 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:32,993 DEBUG Chef [pool-2-thread-12] Got the order. order-id:184, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:32,993 DEBUG Table [pool-2-thread-3] food delivered. order-id:181, table:3, waiter:waiter2
+2023-07-28 11:07:32,993 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:185, table:5, waiter:waiter3
+2023-07-28 11:07:32,993 DEBUG Chef [pool-2-thread-9] Got the order. order-id:185, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:32,993 DEBUG Table [pool-2-thread-3] eating now. order-id:181, table:3, waiter:waiter2
+2023-07-28 11:07:32,993 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:184, table:4, waiter:waiter2
+2023-07-28 11:07:33,029 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:33,029 DEBUG Table [pool-2-thread-1] placing the order. order-id:186, table:1, waiter:waiter1
+2023-07-28 11:07:33,030 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:182, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:33,030 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:186, table:1, waiter:waiter1
+2023-07-28 11:07:33,030 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:33,030 DEBUG Table [pool-2-thread-2] food delivered. order-id:182, table:2, waiter:waiter1
+2023-07-28 11:07:33,030 DEBUG Chef [pool-2-thread-11] Got the order. order-id:186, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:33,030 DEBUG Table [pool-2-thread-2] eating now. order-id:182, table:2, waiter:waiter1
+2023-07-28 11:07:33,030 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:183, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:33,030 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:33,030 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:33,030 DEBUG Table [pool-2-thread-6] food delivered. order-id:183, table:6, waiter:waiter3
+2023-07-28 11:07:33,030 DEBUG Table [pool-2-thread-8] placing the order. order-id:187, table:8, waiter:waiter4
+2023-07-28 11:07:33,030 DEBUG Table [pool-2-thread-6] eating now. order-id:183, table:6, waiter:waiter3
+2023-07-28 11:07:33,030 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:187, table:8, waiter:waiter4
+2023-07-28 11:07:33,030 DEBUG Chef [pool-2-thread-10] Got the order. order-id:187, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:33,093 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:185, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef1
+2023-07-28 11:07:33,093 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:33,093 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:184, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef4
+2023-07-28 11:07:33,094 DEBUG Table [pool-2-thread-5] food delivered. order-id:185, table:5, waiter:waiter3
+2023-07-28 11:07:33,093 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:33,094 DEBUG Table [pool-2-thread-7] placing the order. order-id:188, table:7, waiter:waiter4
+2023-07-28 11:07:33,094 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:33,094 DEBUG Table [pool-2-thread-5] eating now. order-id:185, table:5, waiter:waiter3
+2023-07-28 11:07:33,094 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:188, table:7, waiter:waiter4
+2023-07-28 11:07:33,094 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:33,094 DEBUG Chef [pool-2-thread-12] Got the order. order-id:188, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef4
+2023-07-28 11:07:33,094 DEBUG Table [pool-2-thread-4] food delivered. order-id:184, table:4, waiter:waiter2
+2023-07-28 11:07:33,094 DEBUG Table [pool-2-thread-4] eating now. order-id:184, table:4, waiter:waiter2
+2023-07-28 11:07:33,094 DEBUG Table [pool-2-thread-3] placing the order. order-id:189, table:3, waiter:waiter2
+2023-07-28 11:07:33,094 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:189, table:3, waiter:waiter2
+2023-07-28 11:07:33,095 DEBUG Chef [pool-2-thread-9] Got the order. order-id:189, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:33,130 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:186, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:33,130 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:33,130 DEBUG Table [pool-2-thread-2] placing the order. order-id:190, table:2, waiter:waiter1
+2023-07-28 11:07:33,130 DEBUG Table [pool-2-thread-1] food delivered. order-id:186, table:1, waiter:waiter1
+2023-07-28 11:07:33,130 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:33,130 DEBUG Table [pool-2-thread-1] eating now. order-id:186, table:1, waiter:waiter1
+2023-07-28 11:07:33,130 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:190, table:2, waiter:waiter1
+2023-07-28 11:07:33,130 DEBUG Chef [pool-2-thread-11] Got the order. order-id:190, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:33,130 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:33,130 DEBUG Table [pool-2-thread-6] placing the order. order-id:191, table:6, waiter:waiter3
+2023-07-28 11:07:33,130 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:191, table:6, waiter:waiter3
+2023-07-28 11:07:33,130 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:187, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:33,130 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:33,130 DEBUG Table [pool-2-thread-8] food delivered. order-id:187, table:8, waiter:waiter4
+2023-07-28 11:07:33,130 DEBUG Chef [pool-2-thread-10] Got the order. order-id:191, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:33,130 DEBUG Table [pool-2-thread-8] eating now. order-id:187, table:8, waiter:waiter4
+2023-07-28 11:07:33,194 DEBUG Table [pool-2-thread-5] Preparing the order. table: 5
+2023-07-28 11:07:33,194 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:188, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef4
+2023-07-28 11:07:33,194 DEBUG Table [pool-2-thread-5] placing the order. order-id:192, table:5, waiter:waiter3
+2023-07-28 11:07:33,194 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:33,194 DEBUG Table [pool-2-thread-4] Preparing the order. table: 4
+2023-07-28 11:07:33,194 DEBUG Table [pool-2-thread-7] food delivered. order-id:188, table:7, waiter:waiter4
+2023-07-28 11:07:33,194 DEBUG Chef [pool-2-thread-12] Got the order. order-id:192, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef4
+2023-07-28 11:07:33,194 DEBUG Table [pool-2-thread-4] placing the order. order-id:193, table:4, waiter:waiter2
+2023-07-28 11:07:33,194 DEBUG Table [pool-2-thread-5] waiting for the order to be delivered. order-id:192, table:5, waiter:waiter3
+2023-07-28 11:07:33,194 DEBUG Table [pool-2-thread-7] eating now. order-id:188, table:7, waiter:waiter4
+2023-07-28 11:07:33,194 DEBUG Table [pool-2-thread-4] waiting for the order to be delivered. order-id:193, table:4, waiter:waiter2
+2023-07-28 11:07:33,195 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:189, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:33,196 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:33,196 DEBUG Table [pool-2-thread-3] food delivered. order-id:189, table:3, waiter:waiter2
+2023-07-28 11:07:33,196 DEBUG Chef [pool-2-thread-9] Got the order. order-id:193, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:33,196 DEBUG Table [pool-2-thread-3] eating now. order-id:189, table:3, waiter:waiter2
+2023-07-28 11:07:33,231 DEBUG Table [pool-2-thread-8] Preparing the order. table: 8
+2023-07-28 11:07:33,231 DEBUG Table [pool-2-thread-8] placing the order. order-id:194, table:8, waiter:waiter4
+2023-07-28 11:07:33,231 DEBUG Table [pool-2-thread-8] waiting for the order to be delivered. order-id:194, table:8, waiter:waiter4
+2023-07-28 11:07:33,231 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:191, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:33,230 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:190, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:33,231 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:33,231 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:33,231 DEBUG Chef [pool-2-thread-10] Got the order. order-id:194, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:33,231 DEBUG Table [pool-2-thread-6] food delivered. order-id:191, table:6, waiter:waiter3
+2023-07-28 11:07:33,231 DEBUG Table [pool-2-thread-6] eating now. order-id:191, table:6, waiter:waiter3
+2023-07-28 11:07:33,231 DEBUG Table [pool-2-thread-2] food delivered. order-id:190, table:2, waiter:waiter1
+2023-07-28 11:07:33,230 DEBUG Table [pool-2-thread-1] Preparing the order. table: 1
+2023-07-28 11:07:33,231 DEBUG Table [pool-2-thread-1] placing the order. order-id:195, table:1, waiter:waiter1
+2023-07-28 11:07:33,231 DEBUG Table [pool-2-thread-2] eating now. order-id:190, table:2, waiter:waiter1
+2023-07-28 11:07:33,232 DEBUG Table [pool-2-thread-1] waiting for the order to be delivered. order-id:195, table:1, waiter:waiter1
+2023-07-28 11:07:33,232 DEBUG Chef [pool-2-thread-11] Got the order. order-id:195, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:33,294 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:192, table-id:5, waiter:waiter3. Cooking the food now. chef:Chef4
+2023-07-28 11:07:33,294 DEBUG Table [pool-2-thread-7] Preparing the order. table: 7
+2023-07-28 11:07:33,295 DEBUG Chef [pool-2-thread-12] Polling the queue for the order. chef: Chef4
+2023-07-28 11:07:33,295 DEBUG Table [pool-2-thread-7] placing the order. order-id:196, table:7, waiter:waiter4
+2023-07-28 11:07:33,295 DEBUG Table [pool-2-thread-7] waiting for the order to be delivered. order-id:196, table:7, waiter:waiter4
+2023-07-28 11:07:33,295 DEBUG Table [pool-2-thread-5] food delivered. order-id:192, table:5, waiter:waiter3
+2023-07-28 11:07:33,295 DEBUG Chef [pool-2-thread-12] Got the order. order-id:196, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef4
+2023-07-28 11:07:33,295 DEBUG Table [pool-2-thread-5] eating now. order-id:192, table:5, waiter:waiter3
+2023-07-28 11:07:33,296 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:193, table-id:4, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:33,296 DEBUG Table [pool-2-thread-3] Preparing the order. table: 3
+2023-07-28 11:07:33,296 DEBUG Chef [pool-2-thread-9] Polling the queue for the order. chef: Chef1
+2023-07-28 11:07:33,296 DEBUG Table [pool-2-thread-3] placing the order. order-id:197, table:3, waiter:waiter2
+2023-07-28 11:07:33,296 DEBUG Table [pool-2-thread-3] waiting for the order to be delivered. order-id:197, table:3, waiter:waiter2
+2023-07-28 11:07:33,296 DEBUG Chef [pool-2-thread-9] Got the order. order-id:197, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:33,296 DEBUG Table [pool-2-thread-4] food delivered. order-id:193, table:4, waiter:waiter2
+2023-07-28 11:07:33,296 DEBUG Table [pool-2-thread-4] eating now. order-id:193, table:4, waiter:waiter2
+2023-07-28 11:07:33,331 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:194, table-id:8, waiter:waiter4. Cooking the food now. chef:Chef2
+2023-07-28 11:07:33,331 DEBUG Chef [pool-2-thread-10] Polling the queue for the order. chef: Chef2
+2023-07-28 11:07:33,331 DEBUG Table [pool-2-thread-8] food delivered. order-id:194, table:8, waiter:waiter4
+2023-07-28 11:07:33,331 DEBUG Table [pool-2-thread-6] Preparing the order. table: 6
+2023-07-28 11:07:33,331 DEBUG Table [pool-2-thread-8] eating now. order-id:194, table:8, waiter:waiter4
+2023-07-28 11:07:33,331 DEBUG Table [pool-2-thread-6] placing the order. order-id:198, table:6, waiter:waiter3
+2023-07-28 11:07:33,331 DEBUG Table [pool-2-thread-6] waiting for the order to be delivered. order-id:198, table:6, waiter:waiter3
+2023-07-28 11:07:33,332 DEBUG Chef [pool-2-thread-10] Got the order. order-id:198, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:33,332 DEBUG Table [pool-2-thread-2] Preparing the order. table: 2
+2023-07-28 11:07:33,332 DEBUG Table [pool-2-thread-2] placing the order. order-id:199, table:2, waiter:waiter1
+2023-07-28 11:07:33,332 DEBUG Table [pool-2-thread-2] waiting for the order to be delivered. order-id:199, table:2, waiter:waiter1
+2023-07-28 11:07:33,332 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:195, table-id:1, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:33,332 DEBUG Chef [pool-2-thread-11] Polling the queue for the order. chef: Chef3
+2023-07-28 11:07:33,332 DEBUG Table [pool-2-thread-1] food delivered. order-id:195, table:1, waiter:waiter1
+2023-07-28 11:07:33,332 DEBUG Chef [pool-2-thread-11] Got the order. order-id:199, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:33,332 DEBUG Table [pool-2-thread-1] eating now. order-id:195, table:1, waiter:waiter1
+2023-07-28 11:07:33,344 DEBUG Restaurant [main] closing the restaurant now.
+2023-07-28 11:07:33,345 DEBUG Table [main] Stopping new orders now. table-id:1
+2023-07-28 11:07:33,345 DEBUG Table [main] Stopping new orders now. table-id:2
+2023-07-28 11:07:33,345 DEBUG Table [main] Stopping new orders now. table-id:3
+2023-07-28 11:07:33,345 DEBUG Table [main] Stopping new orders now. table-id:4
+2023-07-28 11:07:33,345 DEBUG Table [main] Stopping new orders now. table-id:5
+2023-07-28 11:07:33,345 DEBUG Table [main] Stopping new orders now. table-id:6
+2023-07-28 11:07:33,345 DEBUG Table [main] Stopping new orders now. table-id:7
+2023-07-28 11:07:33,345 DEBUG Table [main] Stopping new orders now. table-id:8
+2023-07-28 11:07:33,346 DEBUG Restaurant [main] waiting for threads to terminate...restaurant-status:CLOSED
+2023-07-28 11:07:33,346 DEBUG Restaurant [main] waiting some more time for staff to finish the work.
+2023-07-28 11:07:33,395 DEBUG Chef [pool-2-thread-12] Food is cooked. Notifying the waiter. order-id:196, table-id:7, waiter:waiter4. Cooking the food now. chef:Chef4
+2023-07-28 11:07:33,395 DEBUG Table [pool-2-thread-5] Table 5 stopped serving
+2023-07-28 11:07:33,395 DEBUG Table [pool-2-thread-7] food delivered. order-id:196, table:7, waiter:waiter4
+2023-07-28 11:07:33,395 DEBUG Table [pool-2-thread-7] eating now. order-id:196, table:7, waiter:waiter4
+2023-07-28 11:07:33,396 DEBUG Chef [pool-2-thread-9] Food is cooked. Notifying the waiter. order-id:197, table-id:3, waiter:waiter2. Cooking the food now. chef:Chef1
+2023-07-28 11:07:33,396 DEBUG Table [pool-2-thread-3] food delivered. order-id:197, table:3, waiter:waiter2
+2023-07-28 11:07:33,396 DEBUG Table [pool-2-thread-4] Table 4 stopped serving
+2023-07-28 11:07:33,396 DEBUG Table [pool-2-thread-3] eating now. order-id:197, table:3, waiter:waiter2
+2023-07-28 11:07:33,432 DEBUG Chef [pool-2-thread-10] Food is cooked. Notifying the waiter. order-id:198, table-id:6, waiter:waiter3. Cooking the food now. chef:Chef2
+2023-07-28 11:07:33,432 DEBUG Table [pool-2-thread-1] Table 1 stopped serving
+2023-07-28 11:07:33,432 DEBUG Chef [pool-2-thread-11] Food is cooked. Notifying the waiter. order-id:199, table-id:2, waiter:waiter1. Cooking the food now. chef:Chef3
+2023-07-28 11:07:33,432 DEBUG Table [pool-2-thread-8] Table 8 stopped serving
+2023-07-28 11:07:33,432 DEBUG Table [pool-2-thread-6] food delivered. order-id:198, table:6, waiter:waiter3
+2023-07-28 11:07:33,432 DEBUG Table [pool-2-thread-2] food delivered. order-id:199, table:2, waiter:waiter1
+2023-07-28 11:07:33,432 DEBUG Table [pool-2-thread-6] eating now. order-id:198, table:6, waiter:waiter3
+2023-07-28 11:07:33,432 DEBUG Table [pool-2-thread-2] eating now. order-id:199, table:2, waiter:waiter1
+2023-07-28 11:07:33,446 DEBUG Restaurant [main] waiting some more time for staff to finish the work.
+2023-07-28 11:07:33,496 DEBUG Table [pool-2-thread-7] Table 7 stopped serving
+2023-07-28 11:07:33,496 DEBUG Table [pool-2-thread-3] Table 3 stopped serving
+2023-07-28 11:07:33,532 DEBUG Table [pool-2-thread-2] Table 2 stopped serving
+2023-07-28 11:07:33,532 DEBUG Table [pool-2-thread-6] Table 6 stopped serving
+2023-07-28 11:07:33,547 DEBUG Restaurant [main] Restaurant is closed. All staff members stopped working...
+2023-07-28 11:07:33,547 DEBUG Restaurant [main] Manager is going to reconcile the data and generate report now...
+2023-07-28 11:07:33,547 DEBUG Manager [main] Total orders processed matches with total orders from all tables, all waiters and all chefs.
+2023-07-28 11:07:33,548 DEBUG Restaurant [main] all orders reconciled.
